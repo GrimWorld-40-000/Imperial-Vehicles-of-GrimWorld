@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>GW_OpenGarages</defName>
+    <label>open garages</label>
+    <giverClass>Vehicles_of_Grimworld.WorkGiver_OpenGarage</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>open garage</verb>
+    <gerund>opening garage</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>500</priorityInType>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>GW_CloseGarages</defName>
+    <label>close garages</label>
+    <giverClass>Vehicles_of_Grimworld.WorkGiver_CloseGarage</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>close garage</verb>
+    <gerund>closing garage</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>500</priorityInType>
+  </WorkGiverDef>
+</Defs>

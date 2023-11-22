@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_DropPod_Blueprint</defName>
+		<label>Drop Pod</label>
+		<description>crunch go bug.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/DropPod/DropPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8, 8)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		
+	<rotatable>false</rotatable>
+	<statBases>
+		<MaxHitPoints>500</MaxHitPoints>
+		<WorkToBuild>12000</WorkToBuild>
+		<Flammability>0</Flammability>
+	</statBases>
+	
+	<size>(7, 7)</size>
+	
+	<researchPrerequisites>
+
+	</researchPrerequisites>
+	
+	<costList>
+		<Steel>1</Steel>
+	</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_DropPod</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

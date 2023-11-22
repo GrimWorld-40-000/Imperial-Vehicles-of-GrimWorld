@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Predator =====-->
+
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_Predator_Blueprint</defName>
+		<label>Predator Tank</label>
+		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/Predator/Predator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>17500</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(4, 5)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialVehicles</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>650</Steel>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>15</HP_Adamantium>
+			<GW_VehicleCannon>1</GW_VehicleCannon>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>14</GW_VehicleSuspension>
+			<GW_VehicleTracks>2</GW_VehicleTracks>
+			<GW_VehicleWheel>22</GW_VehicleWheel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_Predator</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>
