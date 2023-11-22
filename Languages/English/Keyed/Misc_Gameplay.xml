@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<GW_Open>Open</GW_Open>
+	<GW_OpenDescription>Request a pawn to open the door</GW_OpenDescription>
+	<GW_Close>Close</GW_Close>
+	<GW_CloseDescription>Request a pawn to close the door</GW_CloseDescription>
+	<GW_Autodoor_OpenDescription>Open the door</GW_Autodoor_OpenDescription>
+	<GW_Autodoor_CloseDescription>Close the door</GW_Autodoor_CloseDescription>
+</LanguageData>
