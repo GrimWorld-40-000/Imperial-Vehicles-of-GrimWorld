@@ -290,7 +290,7 @@
 		<renderProperties>
 		<north>(0, 0)</north>
 		<south>(0, 0)</south>
-		<east>(0.9, -0.5)</east>
+		<east>(0.9, -0.3)</east>
 		</renderProperties>
 						
 
