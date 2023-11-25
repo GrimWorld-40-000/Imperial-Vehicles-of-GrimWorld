@@ -29,31 +29,13 @@
 								</secondaryDamage>
 							</projectile>
 						</ThingDef>
-
-						<CombatExtended.AmmoSetDef>
-							<defName>AmmoSet_LasCannon</defName>
-							<label>laser charge</label>
-							<ammoTypes>
-								<Ammo_LaserChargePack>Bullet_Laser_LasCannon</Ammo_LaserChargePack>
-							</ammoTypes>
-						</CombatExtended.AmmoSetDef>
-		
-						<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-							<defName>Bullet_Laser_LasCannon</defName>
-							<label>laser beam</label>
-							<projectile Class="CombatExtended.ProjectilePropertiesCE">
-								<damageDef>Burn</damageDef>
-								<damageAmountBase>170</damageAmountBase>
-								<armorPenetrationBase>1</armorPenetrationBase>
-							</projectile>
-						</ThingDef>
 					</value>
 				</li>
 
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/Vehicles.VehicleTurretDef[defName="GW_Overlord_Lasgun"]/projectile</xpath>
 					<value>
-						<projectile>Bullet_Laser_LasCannon</projectile>
+						<projectile>Bullet_Lascannon</projectile>
 					</value>
 				</li>
 
@@ -171,7 +153,7 @@
 					<xpath>Defs/Vehicles.VehicleTurretDef[defName="GW_Overlord_Lasgun"]/ammunition/thingDefs</xpath>
 					<value>
 						<thingDefs>
-							<li>Ammo_LaserChargePack</li>
+							<li>Ammo_Lascannon</li>
 						</thingDefs>
 					</value>
 				</li>
@@ -200,7 +182,7 @@
 					<xpath>Defs/Vehicles.VehicleTurretDef[defName="GW_Overlord_Lasgun"]</xpath>
 					<value>
 						<li Class="Vehicles.CETurretDataDefModExtension">
-							<ammoSet>AmmoSet_LasCannon</ammoSet>
+							<ammoSet>AmmoSet_Lascannon</ammoSet>
 							<shotHeight>3.0</shotHeight>
 							<sway>1.0</sway>
 							<spread>0.01</spread>
