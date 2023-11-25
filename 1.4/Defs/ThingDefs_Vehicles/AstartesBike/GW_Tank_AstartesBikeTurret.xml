@@ -9,7 +9,7 @@
 		<label>bike Heavy Bolter Main</label>
 		<description>ToDo.</description>
 		<turretType>Rotatable</turretType>
-		<shotSound>Shot_Autocannon</shotSound>
+		<shotSound>OverlordHBolter</shotSound>
 		<projectile>Bullet_HeavyBolter</projectile>
 		<reloadTimer>7.8</reloadTimer>
 		<warmUpTimer>1.0</warmUpTimer>

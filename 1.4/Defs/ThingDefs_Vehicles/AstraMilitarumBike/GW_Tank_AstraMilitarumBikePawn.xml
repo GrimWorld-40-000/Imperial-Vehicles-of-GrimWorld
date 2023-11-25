@@ -1,22 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	<!--===== the turret def is too small for me to care having it on it's own file =====-->
+
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_AMbike_MainB</defName>
+		<label>bike Heavy Bolter Main</label>
+		<description>ToDo.</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>OverlordHBolter</shotSound>
+		<projectile>Bullet_HeavyBolter</projectile>
+		<reloadTimer>7.8</reloadTimer>
+		<warmUpTimer>1.0</warmUpTimer>
+		<magazineCapacity>200</magazineCapacity>
+		<chargePerAmmoCount>2</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
+		<hitFlags>IntendedTarget</hitFlags>
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<projectileOffset>1.0</projectileOffset>
+		<maxRange>28.9</maxRange>
+		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
+		<fireModes>
+			<li>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>10</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>25</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Chimera/Chimera_CannonSide</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(0, 0)</drawSize>
+		</graphicData>
+
+		<ammunition>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+
+				<!--===== The actual def of the Bike =====-->
+
 
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
-		<defName>GW_AstartesBike</defName>
-		<label>Astartes Bike</label>
+		<defName>GW_AstraMilitarumBike</defName>
+		<label>Astra Militarum Bike</label>
 		<description>ToDo. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 
 		<graphicData>
-			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
+			<texPath>Things/Vehicles/AstraMilitarumBike/AMBike</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(3.8, 3.8)</drawSize>
+			<drawSize>(2.8, 2.8)</drawSize>
 			<color>(155, 155, 155)</color>
 			<colorTwo>(65, 75, 80)</colorTwo>
 			<colorThree>(45, 50, 45)</colorThree>
 		</graphicData>
 		<fillPercent>1</fillPercent>
-		<buildDef>GW_AstartesBike_Blueprint</buildDef>
+		<buildDef>GW_AstraMilitarumBike_Blueprint</buildDef>
 		<size>(2, 2)</size>
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
@@ -83,7 +143,7 @@
 		<angleSouthEast>0</angleSouthEast>
 		<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
 		<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
-		<drawOffsetEast>(-0.5,0,-0.15)</drawOffsetEast>
+		<drawOffsetEast>(-0.2,0,-0.15)</drawOffsetEast>
 		</pawnRenderer>
 				</li>
 			</roles>
@@ -225,7 +285,7 @@
 		<li Class="Vehicles.CompProperties_VehicleTurrets">
 		<turrets>
 				<li>
-		<turretDef>GW_AstartesBike_Main</turretDef>
+		<turretDef>GW_AMbike_MainB</turretDef>
 						
 		<renderProperties>
 		<north>(0, 0)</north>

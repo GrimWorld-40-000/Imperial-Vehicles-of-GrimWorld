@@ -23,7 +23,6 @@
 
 		<size>(7,23)</size>
 		<uiIconScale>1</uiIconScale>
-		 <vehicleMovementPermissions>NoDriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Transport</vehicleCategory>
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Air</vehicleType>
@@ -229,9 +228,9 @@
 						<turretDef>GW_Overlord_Lasgun</turretDef>
 						
 						<renderProperties>
-							<north>(7, 2)</north>
+							<north>(7, 1)</north>
 							<south>(6.9, -1.5)</south>
-							<east>(1.5, 7.5)</east>
+							<east>(0.5, 7.5)</east>
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
@@ -245,9 +244,9 @@
 						<turretDef>GW_Overlord_Lasgun</turretDef>
 						
 						<renderProperties>
-							<north>(-7, 2)</north>
+							<north>(-7, 1)</north>
 							<south>(-6.9, -1.5)</south>
-							<east>(1.5, -5.9)</east>
+							<east>(0.5, -5.9)</east>
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
