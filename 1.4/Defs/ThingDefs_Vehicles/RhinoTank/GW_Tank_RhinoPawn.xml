@@ -155,7 +155,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -173,7 +173,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -241,11 +241,11 @@
 			<li>
 				<key>FrontArmorPlating</key>
 				<label>Front Armor Plating</label>
-				<health>225</health>
+				<health>220</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.64</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.64</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -254,11 +254,11 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>225</health>
+				<health>210</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -267,11 +267,11 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>225</health>
+				<health>210</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -283,8 +283,8 @@
 				<health>200</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Back</side>

@@ -30,10 +30,10 @@
 		</statBases>
 		<vehicleStats>
 			<Mass>525</Mass>
-			<MoveSpeed>8</MoveSpeed>
+			<MoveSpeed>8.6</MoveSpeed>
 			<CargoCapacity>5500</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.05</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -87,7 +87,7 @@
 			<li>
 				<key>Engine</key>
 				<label>Engine</label>
-				<health>150</health>
+				<health>140</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>Internal</depth>
 				<reactors>
@@ -156,7 +156,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>75</health>
+				<health>60</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -174,7 +174,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>75</health>
+				<health>60</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -245,8 +245,8 @@
 				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.64</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.64</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -255,11 +255,11 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>225</health>
+				<health>215</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -268,11 +268,11 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>225</health>
+				<health>215</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -281,11 +281,11 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>200</health>
+				<health>190</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Back</side>
@@ -331,8 +331,8 @@
 				<health>170</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
 				</armor>
 				<hitWeight>10</hitWeight>
 			</li>
