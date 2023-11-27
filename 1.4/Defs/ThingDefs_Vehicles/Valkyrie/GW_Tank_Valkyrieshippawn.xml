@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+
+  <SoundDef>
+    <defName>valkfly</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>99</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>JetStart</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>valklanding</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>99</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>JetStop</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>Valkyriepawn</defName>
 		<label>Valkyrie</label>
@@ -46,14 +77,14 @@
 		<soundOneShotsOnEvent>
 			<li>
 				<key>AerialVehicleLaunch</key>
-				<value>DropPod_Leaving</value>
+				<value>falkfly</value>
 			</li>
 		</soundOneShotsOnEvent>
 		
 		<soundSustainersOnEvent>
 			<li>
 				<key>(AerialVehicleLanding, Spawned)</key>
-				<value>DropPod_Fall</value>
+				<value>valklanding</value>
 			</li>
 		</soundSustainersOnEvent>
 		
