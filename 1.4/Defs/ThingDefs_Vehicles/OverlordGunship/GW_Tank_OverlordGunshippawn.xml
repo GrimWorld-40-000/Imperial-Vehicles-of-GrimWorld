@@ -43,17 +43,22 @@
 			<FlightSpeed>190</FlightSpeed>
 		</vehicleStats>
 		
-		<soundOneShotsOnEvent>
-			<li>
-				<key>AerialVehicleLaunch</key>
-				<value>falkfly</value>
-			</li>
-		</soundOneShotsOnEvent>
-		
 		<soundSustainersOnEvent>
 			<li>
+				<key>(IgnitionOn, IgnitionOff)</key>
+				<value>valkloop</value>
+			</li>
+			<li>
+				<key>(AerialVehicleLaunch, AerialVehicleLeftMap)</key>
+				<value>valkloop</value>
+			</li>
+			<li>
 				<key>(AerialVehicleLanding, Spawned)</key>
-				<value>valklanding</value>
+				<value>valkloop</value>
+			</li>
+			<li>
+				<key>(AerialVehicleCrashLanding, Spawned)</key>
+				<value>valkloop</value>
 			</li>
 		</soundSustainersOnEvent>
 		
