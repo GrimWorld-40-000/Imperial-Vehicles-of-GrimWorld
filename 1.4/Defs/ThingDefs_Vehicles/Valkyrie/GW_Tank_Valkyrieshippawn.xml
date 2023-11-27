@@ -71,7 +71,7 @@
 					<key>pilot</key>
 					<label>Pilot</label>
 					<slots>1</slots>
-					<slotsToOperate>2</slotsToOperate>
+					<slotsToOperate>1</slotsToOperate>
 					
 					<handlingTypes>
 						<li>Movement</li>
