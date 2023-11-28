@@ -22,8 +22,8 @@
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Land</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.78</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.98</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.54</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Flammability>0.25</Flammability>
 			<MarketValue>4200</MarketValue>
@@ -31,9 +31,9 @@
 		<vehicleStats>
 			<Mass>525</Mass>
 			<MoveSpeed>8</MoveSpeed>
-			<CargoCapacity>5500</CargoCapacity>
+			<CargoCapacity>750</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.08</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -49,9 +49,9 @@
 		<properties>
 			<customSnowCategoryTicks AssignDefaults="1" />
 			<customRoadCosts AssignDefaults="0.33" />
-			<winterSpeedMultiplier>0.75</winterSpeedMultiplier>
-			<worldSpeedMultiplier>1.25</worldSpeedMultiplier>
-			<offRoadMultiplier>0.75</offRoadMultiplier>
+			<winterSpeedMultiplier>0.95</winterSpeedMultiplier>
+			<worldSpeedMultiplier>1.40</worldSpeedMultiplier>
+			<offRoadMultiplier>0.95</offRoadMultiplier>
 			<vehicleJobLimitations>
 				<li>(RepairVehicle, 5)</li>
 			</vehicleJobLimitations>
@@ -132,8 +132,8 @@
 				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.64</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.64</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -145,8 +145,8 @@
 				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -158,8 +158,8 @@
 				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.84</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.05</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -171,8 +171,8 @@
 				<health>200</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Back</side>
