@@ -13,7 +13,7 @@
 		<projectile>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>150</damageAmountBase>
-			<speed>100</speed>
+			<speed>90</speed>
 			<explosionRadius>5.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
