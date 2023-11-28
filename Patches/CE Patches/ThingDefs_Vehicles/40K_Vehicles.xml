@@ -18,7 +18,7 @@
 							<defName>Bullet_HeavyBolter</defName>
 							<label>.998 Caliber Bullet</label>
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
-								<damageAmountBase>78</damageAmountBase>
+								<damageAmountBase>35</damageAmountBase>
 								<armorPenetrationSharp>23.1</armorPenetrationSharp>
 								<armorPenetrationBlunt>637.64</armorPenetrationBlunt>
 								<secondaryDamage>
@@ -45,8 +45,14 @@
 					<label>laser beam</label>
 					<projectile Class="CombatExtended.ProjectilePropertiesCE">
 						<damageDef>Burn</damageDef>
-						<damageAmountBase>170</damageAmountBase>
+						<damageAmountBase>135</damageAmountBase>
 						<armorPenetrationBase>1</armorPenetrationBase>
+						<secondaryDamage>
+									<li>
+										<def>Bomb_Secondary</def>
+										<amount>35</amount>
+									</li>
+								</secondaryDamage>
 					</projectile>
 				</ThingDef>
 
