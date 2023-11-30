@@ -32,30 +32,6 @@
 					</value>
 				</li>
 
-				<CombatExtended.AmmoSetDef>
-					<defName>AmmoSet_LasCannon</defName>
-					<label>laser charge</label>
-					<ammoTypes>
-						<Ammo_LaserChargePack>Bullet_Laser_LasCannon</Ammo_LaserChargePack>
-					</ammoTypes>
-				</CombatExtended.AmmoSetDef>
-
-				<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" ParentName="LaserBulletBlue">
-					<defName>Bullet_Laser_LasCannon</defName>
-					<label>laser beam</label>
-					<projectile Class="CombatExtended.ProjectilePropertiesCE">
-						<damageDef>Burn</damageDef>
-						<damageAmountBase>135</damageAmountBase>
-						<armorPenetrationBase>1</armorPenetrationBase>
-						<secondaryDamage>
-									<li>
-										<def>Bomb_Secondary</def>
-										<amount>35</amount>
-									</li>
-								</secondaryDamage>
-					</projectile>
-				</ThingDef>
-
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/Vehicles.VehicleTurretDef[defName="GW_Overlord_Lasgun"]/projectile</xpath>
 					<value>
