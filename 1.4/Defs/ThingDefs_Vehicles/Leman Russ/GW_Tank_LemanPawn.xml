@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_LemanRuss</defName>
 		<label>Leman Russ</label>
-		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Leman Russ Battle Tank is the primary main battle tank of the Astra Militarum, and is also the most widely deployed tank in the Imperium. This medium tank is named after the primarch of the Space Wolves, Leman Russ. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>

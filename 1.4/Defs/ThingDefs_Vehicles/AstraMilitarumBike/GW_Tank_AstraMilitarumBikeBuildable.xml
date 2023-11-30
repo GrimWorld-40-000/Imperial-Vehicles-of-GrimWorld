@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>GW_AstraMilitarumBike_Blueprint</defName>
 		<label>Astra Militarum Bike</label>
-		<description>Vroom.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1. \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>Bikes are fast-moving ground vehicles capable of carrying up to one rider and usually mounting a light weapon. Bikes are used by several forces of the Imperium as often for reconnaissance and rapid support roles. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1. \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>GrimworldCategory</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/AstraMilitarumBike/AMBike</texPath>

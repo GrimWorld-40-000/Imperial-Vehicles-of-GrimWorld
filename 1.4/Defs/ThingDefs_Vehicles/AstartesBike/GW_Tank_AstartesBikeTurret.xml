@@ -7,7 +7,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_AstartesBike_Main</defName>
 		<label>bike Heavy Bolter Main</label>
-		<description>ToDo.</description>
+		<description>Heavy bolter turret</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordHBolter</shotSound>
 		<projectile>Bullet_HeavyBolter</projectile>

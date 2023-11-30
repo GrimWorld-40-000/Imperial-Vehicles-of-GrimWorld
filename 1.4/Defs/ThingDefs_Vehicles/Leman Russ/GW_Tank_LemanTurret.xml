@@ -81,7 +81,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_HeavyBolter</defName>
 		<label>Leman Russ Heavy Bolter</label>
-		<description>ToDo.</description>
+		<description>Heavy bolter turret.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>Bullet_HeavyBolter</projectile>

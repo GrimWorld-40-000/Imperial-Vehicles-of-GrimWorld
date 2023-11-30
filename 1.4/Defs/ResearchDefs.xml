@@ -6,7 +6,7 @@
 		<techLevel>Spacer</techLevel>
 		<baseCost>10000</baseCost>
 		<tab>Odz_ResearchTab_Adeptus</tab>
-		<description>ToDo.</description>
+		<description>Reaserch which unlock Imperial medium vehicles.</description>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 		</prerequisites>

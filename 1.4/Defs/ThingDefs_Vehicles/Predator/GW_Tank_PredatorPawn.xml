@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Predator</defName>
 		<label>Predator</label>
-		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x7\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Predator Destructor, usually referred to simply as the Predator, is the most common main battle tank employed by the Space Marines of the Imperium of Man. It is a more heavily armed and armoured version of the Rhino armoured personnel carrier. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x7\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Predator/Predator</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>

@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>OverlordGunshippawn</defName>
 		<label>Overlord Gunship</label>
-		<description>ToDo. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Overlord is a new aircraft used by Primaris Space Marines, one of the vehicles commissioned by the Primarch Roboute Guilliman to the Archmagos Belisarius Cawl. Overlords are a new aircraft that seems to be an evolution of the Thunderhawk. It has powerful quintuple engines and twinned hulls thick enough to permit insertion from orbit like Thunderhawks or Stormbirds, despite being similar to Corvus Blackstars. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/OverlordGunship/Overlord</texPath>

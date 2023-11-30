@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>Valkyriebuild</defName>
 		<label>Valkyrie</label>
-		<description>ToDo. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Valkyrie Airborne Assault Carrier is a heavily armed Imperial Aircraft with VTOL (Vertical Take-off and Landing) capabilities, used to ferry special forces such as Storm Trooper Squads and Drop Troop Regiments such as the Elysian Drop Troops and Harakoni Warhawks to and from combat zones. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<designationCategory>GrimworldCategory</designationCategory>
 		

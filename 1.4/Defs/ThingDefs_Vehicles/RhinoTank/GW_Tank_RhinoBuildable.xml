@@ -5,7 +5,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>GW_Rhino_Blueprint</defName>
 		<label>Rhino Tank</label>
-		<description>Todo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Rhino, or more formally, the Mars Pattern Rhino, is an Imperial armoured personnel carrier (APC) that is widely used throughout the galaxy by many different factions, though it is a mainstay vehicle of the Adeptus Astartes.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>GrimworldCategory</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/RhinoTank/RhinoTank</texPath>

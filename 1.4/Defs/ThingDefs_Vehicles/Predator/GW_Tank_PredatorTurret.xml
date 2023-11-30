@@ -25,7 +25,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Predator_MainTurret</defName>
 		<label>Predator main autocannon</label>
-		<description>ToDo.</description>
+		<description>Autocannon turret.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_Predator_MainTurret</projectile>
@@ -96,7 +96,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Predator_HeavyBolter</defName>
 		<label>Predator Heavy Bolter</label>
-		<description>ToDo.</description>
+		<description>Heavy bolter sponsor turret.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>HP_Bullet_HeavyBolter</projectile>

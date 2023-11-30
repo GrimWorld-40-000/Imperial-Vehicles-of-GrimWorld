@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_AstartesBike</defName>
 		<label>Astartes Bike</label>
-		<description>ToDo. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Assault Bike, also known as the Space Marine Bike, is a light vehicle that is used throughout the Imperium by most Adeptus Astartes Chapters, and even by Renegade and Chaos Space Marines. The Assault Bike is an extremely powerful machine, and is capable of propelling a fully armoured Space Marine at dizzying speeds while remaining responsive enough to perform a full-range of death-defying combat maneuvers. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 
 		<graphicData>
 			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>

@@ -114,7 +114,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 			<defName>GW_Valkyrie_Bolter</defName>
 			<label>big shootta</label>
-			<description>ToDo.</description>
+			<description>Heavy bolter turret.</description>
 			<turretType>Rotatable</turretType>
 
 			<shotSound>OverlordHBolter</shotSound>

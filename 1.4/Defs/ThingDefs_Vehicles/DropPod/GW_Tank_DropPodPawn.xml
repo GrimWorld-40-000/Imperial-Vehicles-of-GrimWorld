@@ -4,7 +4,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_DropPod</defName>
 		<label>DropPod</label>
-		<description>Todo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>Drop Pods are atmospheric assault transports that are primarily used by the Adeptus Astartes and their Chaos Space Marine counterparts for orbital insertion and planetary assaults where achieving tactical surprise is often an important factor. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/DropPod/DropPod</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
