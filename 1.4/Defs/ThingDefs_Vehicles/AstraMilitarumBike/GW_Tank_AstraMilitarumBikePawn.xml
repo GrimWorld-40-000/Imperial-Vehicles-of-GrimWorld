@@ -82,8 +82,8 @@
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Land</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.78</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.76</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.14</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Flammability>0.25</Flammability>
 			<MarketValue>4200</MarketValue>
@@ -91,9 +91,9 @@
 		<vehicleStats>
 			<Mass>525</Mass>
 			<MoveSpeed>8</MoveSpeed>
-			<CargoCapacity>5500</CargoCapacity>
+			<CargoCapacity>500</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.07</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -109,9 +109,9 @@
 		<properties>
 			<customSnowCategoryTicks AssignDefaults="1" />
 			<customRoadCosts AssignDefaults="0.33" />
-			<winterSpeedMultiplier>0.75</winterSpeedMultiplier>
-			<worldSpeedMultiplier>1.25</worldSpeedMultiplier>
-			<offRoadMultiplier>0.75</offRoadMultiplier>
+			<winterSpeedMultiplier>0.90</winterSpeedMultiplier>
+			<worldSpeedMultiplier>1.30</worldSpeedMultiplier>
+			<offRoadMultiplier>0.90</offRoadMultiplier>
 			<vehicleJobLimitations>
 				<li>(RepairVehicle, 5)</li>
 			</vehicleJobLimitations>

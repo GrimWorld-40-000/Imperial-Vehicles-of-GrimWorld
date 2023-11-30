@@ -20,7 +20,7 @@
 		
 		<buildDef>GW_Taurox_blueprint</buildDef>
 		
-		<size>(4, 7</size>
+		<size>(4, 7)</size>
 
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
@@ -34,10 +34,11 @@
 		</statBases>
 		
 		<vehicleStats>
-			<Mass>250</Mass>
+			<Mass>615</Mass>
 			<MoveSpeed>12.2</MoveSpeed>
-			<CargoCapacity>1000</CargoCapacity>
+			<CargoCapacity>6750</CargoCapacity>
 			<RepairRate>4</RepairRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
 		
 		
@@ -63,7 +64,7 @@
 				<li>
 					<key>passenger</key>
 					<label>Passenger</label>
-					<slots>11</slots>
+					<slots>10</slots>
 				</li>
 			</roles>
 		</properties>
@@ -91,20 +92,6 @@
 				<categories>
 					<li>MoveSpeed</li>
 				</categories>
-			</li>
-			<li>
-				<key>AmmoRack</key>
-				<label>Ammo Rack</label>
-				<health>50</health>
-				<depth>Internal</depth>
-				<reactors>
-					<li Class="Vehicles.Reactor_Explosive">
-						<indicator>VF_Explosive</indicator>
-						<chance>0.25</chance>
-						<radius>2</radius>
-						<damageDef>Bomb</damageDef>
-					</li>
-				</reactors>
 			</li>
 			<li>
 				<key>LeftTrack</key>
@@ -141,7 +128,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>75</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -159,7 +146,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>75</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -177,7 +164,7 @@
 			<li>
 				<key>BackLeftDriveSprocket</key>
 				<label>Back Left Drive Sprocket</label>
-				<health>50</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -195,7 +182,7 @@
 			<li>
 				<key>BackRightDriveSprocket</key>
 				<label>Back Right Drive Sprocket</label>
-				<health>50</health>
+				<health>65</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -230,8 +217,8 @@
 				<health>300</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>3.04</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.72</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.72</ArmorRating_Blunt>
+					<ArmorRating_Sharp>3.04</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -243,8 +230,8 @@
 				<health>250</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.07</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.17</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -256,8 +243,8 @@
 				<health>250</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.07</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.17</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -269,8 +256,8 @@
 				<health>200</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.66</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.94</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Back</side>
@@ -316,8 +303,8 @@
 				<health>170</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.66</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.94</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
 				</armor>
 				<hitWeight>10</hitWeight>
 			</li>

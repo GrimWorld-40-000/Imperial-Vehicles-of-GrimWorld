@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_LemanRuss</defName>
 		<label>Leman Russ</label>
-		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
@@ -31,11 +31,11 @@
 			<MarketValue>4200</MarketValue>
 		</statBases>
 		<vehicleStats>
-			<Mass>550</Mass>
-			<MoveSpeed>7.8</MoveSpeed>
-			<CargoCapacity>200</CargoCapacity>
+			<Mass>590</Mass>
+			<MoveSpeed>8.2</MoveSpeed>
+			<CargoCapacity>225</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -70,7 +70,7 @@
 				<li>
 					<key>gunner</key>
 					<label>Gunner</label>
-					<slots>2</slots>
+					<slots>1</slots>
 					<slotsToOperate>1</slotsToOperate>
 					<handlingTypes>Turret</handlingTypes>
 					<turretIds>
@@ -160,7 +160,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -178,7 +178,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -249,8 +249,8 @@
 				<health>300</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>3.04</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.72</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.72</ArmorRating_Blunt>
+					<ArmorRating_Sharp>3.04</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -259,11 +259,11 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>250</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.07</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.17</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -272,11 +272,11 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>250</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>2.07</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.17</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -285,11 +285,11 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>200</health>
+				<health>205</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.66</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.94</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Back</side>
@@ -298,10 +298,16 @@
 			<li>
 				<key>FuelTank</key>
 				<label>Fuel Tank</label>
-				<health>150</health>
+				<health>125</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak" />
+					<li Class="Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.15</chance>
+						<radius>5</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
 				</reactors>
 				<hitbox>
 					<cells>
@@ -319,7 +325,7 @@
 			<li>
 				<key>SteeringApparatus</key>
 				<label>Steering Apparatus</label>
-				<health>50</health>
+				<health>55</health>
 				<depth>Internal</depth>
 				<hitWeight>5</hitWeight>
 			</li>
@@ -335,8 +341,8 @@
 				<health>170</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.66</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.94</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
 				</armor>
 				<hitWeight>10</hitWeight>
 			</li>
@@ -345,9 +351,9 @@
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
-				<fuelConsumptionRate>36</fuelConsumptionRate>
-				<fuelConsumptionWorldMultiplier>0.75</fuelConsumptionWorldMultiplier>
-				<fuelCapacity>135</fuelCapacity>
+				<fuelConsumptionRate>34</fuelConsumptionRate>
+				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
+				<fuelCapacity>130</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>

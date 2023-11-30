@@ -159,7 +159,7 @@
 			<li>
 				<key>FrontLeftDriveSprocket</key>
 				<label>Front Left Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -177,7 +177,7 @@
 			<li>
 				<key>FrontRightDriveSprocket</key>
 				<label>Front Right Drive Sprocket</label>
-				<health>75</health>
+				<health>55</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -248,8 +248,8 @@
 				<health>300</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.58</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.38</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -258,11 +258,11 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>250</health>
+				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.58</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.38</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -271,11 +271,11 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>250</health>
+				<health>225</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.58</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.38</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -284,7 +284,7 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>200</health>
+				<health>190</health>
 				<depth>External</depth>
 				<hitbox>
 					<side>Back</side>
@@ -331,8 +331,8 @@
 				<depth>External</depth>
 				<hitWeight>10</hitWeight>
 				<armor>
-					<ArmorRating_Blunt>1.34</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.16</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.34</ArmorRating_Sharp>
 				</armor>
 			</li>
 		</components>

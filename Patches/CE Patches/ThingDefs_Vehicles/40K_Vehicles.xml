@@ -18,7 +18,7 @@
 							<defName>Bullet_HeavyBolter</defName>
 							<label>.998 Caliber Bullet</label>
 							<projectile Class="CombatExtended.ProjectilePropertiesCE">
-								<damageAmountBase>78</damageAmountBase>
+								<damageAmountBase>35</damageAmountBase>
 								<armorPenetrationSharp>23.1</armorPenetrationSharp>
 								<armorPenetrationBlunt>637.64</armorPenetrationBlunt>
 								<secondaryDamage>
