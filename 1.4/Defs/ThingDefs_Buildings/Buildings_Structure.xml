@@ -46,7 +46,7 @@
 	
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_4x1GarageDoor">
 		<defName>GW_4x1GarageDoorClosed</defName>
-		<label>imperialis garage door (4x1)</label>
+		<label>Imperialis garage door (4x1)</label>
 		<description>Divides rooms. Must be manually opened with pawn interaction allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageDoor</thingClass>
 		<passability>Impassable</passability>
@@ -83,7 +83,7 @@
 
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_5x1GarageDoor">
 		<defName>GW_5x1GarageDoorClosed</defName>
-		<label>imperialis garage door (5x1)</label>
+		<label>Imperialis garage door (5x1)</label>
 		<description>Divides rooms. Must be manually opened with pawn interaction allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageDoor</thingClass>
 		<passability>Impassable</passability>
@@ -120,7 +120,7 @@
 
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_7x1GarageDoor">
 		<defName>GW_7x1GarageDoorClosed</defName>
-		<label>imperialis garage door (7x1)</label>
+		<label>Imperialis garage door (7x1)</label>
 		<description>Divides rooms. Must be manually opened with pawn interaction allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageDoor</thingClass>
 		<passability>Impassable</passability>
@@ -157,7 +157,7 @@
 
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_4x1GarageAutodoor">
 		<defName>GW_4x1GarageAutodoorClosed</defName>
-		<label>imperialis garage autodoor (4x1)</label>
+		<label>Imperialis garage autodoor (4x1)</label>
 		<description>Divides rooms. Powered operation opens the door allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageAutodoor</thingClass>
 		<passability>Impassable</passability>
@@ -206,7 +206,7 @@
 
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_5x1GarageAutodoor">
 		<defName>GW_5x1GarageAutodoorClosed</defName>
-		<label>imperialis garage autodoor (5x1)</label>
+		<label>Imperialis garage autodoor (5x1)</label>
 		<description>Divides rooms. Powered operation opens the door allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageAutodoor</thingClass>
 		<passability>Impassable</passability>
@@ -255,7 +255,7 @@
 
 	<ThingDef ParentName="GW_GarageDoor" Name="GW_7x1GarageAutodoor">
 		<defName>GW_7x1GarageAutodoorClosed</defName>
-		<label>imperialis garage autodoor (7x1)</label>
+		<label>Imperialis garage autodoor (7x1)</label>
 		<description>Divides rooms. Powered operation opens the door allowing vehicles through.</description>
 		<thingClass>Vehicles_of_Grimworld.GarageAutodoor</thingClass>
 		<passability>Impassable</passability>

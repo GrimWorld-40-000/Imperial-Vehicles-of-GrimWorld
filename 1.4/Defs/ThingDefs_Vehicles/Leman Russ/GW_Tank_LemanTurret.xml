@@ -25,7 +25,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRuss_MainTurret</defName>
 		<label>Leman Russ main cannon</label>
-		<description>ToDo.</description>
+		<description>Standard Imperial Battlecannon.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_LemanRuss_MainTurret</projectile>

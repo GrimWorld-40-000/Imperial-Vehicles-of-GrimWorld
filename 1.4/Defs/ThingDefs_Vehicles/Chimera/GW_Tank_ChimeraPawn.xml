@@ -4,7 +4,7 @@
 <Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Chimera</defName>
 		<label>Chimera</label>
-		<description>ToDo.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Chimera is the standard armoured personnel carrier (APC) of the Astra Militarum and its chassis is the basis for a large number of other Imperial armoured vehicles such as the Basilisk artillery and Salamander scout vehicles. The basic Chimera is equipped with variety of heavy weapons, such as Heavy Bolters. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Chimera/Chimera</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>

@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>GW_Taurox_blueprint</defName>
 		<label>Taurox</label>
-		<description>ToDo. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Taurox is an armoured personnel carrier (APC) that is used by the Astra Militarum. The Taurox is a common sight within the armouries of the Imperial Guard and was designed to hit hard and fast by exploiting gaps in enemy lines or plugging gaps in the Imperium's own. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>GrimworldCategory</designationCategory>
 		
 		<graphicData>
