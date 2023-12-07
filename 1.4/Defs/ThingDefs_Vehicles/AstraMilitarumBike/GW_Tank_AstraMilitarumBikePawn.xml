@@ -99,7 +99,7 @@
 		<soundSustainersOnEvent>
 			<li>
 				<key>(IgnitionOn, IgnitionOff)</key>
-				<value>GW_VoG_HeavySound</value>
+				<value>bikelooper</value>
 			</li>
 		</soundSustainersOnEvent>
 		

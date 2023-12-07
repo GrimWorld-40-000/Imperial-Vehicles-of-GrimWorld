@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+  <SoundDef>
+    <sustain>true</sustain>
+    <defName>bikelooper</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>   
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MotorcycleEngine</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>35~35</volumeRange>
+        <sustainAttack>2.5</sustainAttack>      
+        <sustainRelease>2.5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_AstartesBike</defName>
 		<label>Astartes Bike</label>
@@ -39,7 +58,7 @@
 		<soundSustainersOnEvent>
 			<li>
 				<key>(IgnitionOn, IgnitionOff)</key>
-				<value>GW_VoG_HeavySound</value>
+				<value>bikelooper</value>
 			</li>
 		</soundSustainersOnEvent>
 		
