@@ -2,6 +2,7 @@
 
 <Defs>
 
+
   <SoundDef>
     <sustain>true</sustain>
     <defName>valkloop</defName>  
@@ -24,7 +25,6 @@
   </SoundDef>
 
   <SoundDef>
-    <sustain>true</sustain>
     <defName>valkfly</defName>  
     <context>MapOnly</context>  
     <maxSimultaneous>1</maxSimultaneous>  
@@ -38,14 +38,11 @@
         </grains>
         <pitchRange>0.99~1.01</pitchRange>
         <volumeRange>35~35</volumeRange>
-        <sustainAttack>1.5</sustainAttack>      
-        <sustainRelease>1.5</sustainRelease>
       </li>
     </subSounds>
   </SoundDef>
 
   <SoundDef>
-    <sustain>true</sustain>
     <defName>valklanding</defName>  
     <context>MapOnly</context>  
     <maxSimultaneous>1</maxSimultaneous>
@@ -59,8 +56,6 @@
         </grains>
         <pitchRange>0.99~1.01</pitchRange>
         <volumeRange>35~35</volumeRange>
-        <sustainAttack>2.5</sustainAttack>      
-        <sustainRelease>2.5</sustainRelease>
       </li>
     </subSounds>
   </SoundDef>
@@ -126,6 +121,17 @@
 			</li>
 		</soundSustainersOnEvent>
 		
+		<soundOneShotsOnEvent Inherit = "False">
+			<li>
+				<key>AerialVehicleLaunch</key>
+				<value>valkfly</value>
+			</li>
+			<li>
+				<key>Spawned</key>
+				<value>valklanding</value>
+			</li>
+		</soundOneShotsOnEvent>
+
 		<race>
 			<baseBodySize>1.5</baseBodySize>
 		</race>

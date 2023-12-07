@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+
+  <SoundDef>
+    <sustain>true</sustain>
+    <defName>podpodloop</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>   
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>DropPodSoarLoop</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>35~35</volumeRange>
+        <sustainAttack>2.5</sustainAttack>      
+        <sustainRelease>2.5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>podpodland</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>   
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>DropPodSoarLand</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>35~35</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_DropPod</defName>
 		<label>DropPod</label>
@@ -49,7 +89,7 @@
 		<soundSustainersOnEvent>
 			<li>
 				<key>(AerialVehicleLaunch, Despawned)</key>
-				<value>VVE_VehicleEngineRocket</value>
+				<value>podpodloop</value>
 			</li>
 			<li>
 				<key>(AerialVehicleLanding, Spawned)</key>
@@ -57,6 +97,13 @@
 			</li>
 		</soundSustainersOnEvent>
 		
+		<soundOneShotsOnEvent Inherit = "False">
+			<li>
+				<key>Spawned</key>
+				<value>podpodland</value>
+			</li>
+		</soundOneShotsOnEvent>
+
 		<race>
 			<baseBodySize>1.5</baseBodySize>
 		</race>
