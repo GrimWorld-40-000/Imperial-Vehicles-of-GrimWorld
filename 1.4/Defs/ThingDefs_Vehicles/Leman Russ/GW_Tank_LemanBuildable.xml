@@ -19,7 +19,7 @@
 		</statBases>
 		<size>(4, 4)</size>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_AdvancedImperialVehicles</li>
 		</researchPrerequisites>
 		<costList>
 			<Steel>500</Steel>
