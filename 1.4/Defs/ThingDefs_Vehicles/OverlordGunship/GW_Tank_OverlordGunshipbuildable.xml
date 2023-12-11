@@ -25,11 +25,18 @@
 		<size>(7,23)</size>
 		
 		<researchPrerequisites>
-		
+			<li>GW_ImperialVehicles</li>
 		</researchPrerequisites>
 		
 		<costList>
-		
+			<Steel>750</Steel>
+			<HP_Ceramite>375</HP_Ceramite>
+			<HP_Adamantium>25</HP_Adamantium>
+			<GW_VehicleCannon>4</GW_VehicleCannon>
+			<GW_JetEngine>4</GW_JetEngine>
+			<GW_VehicleExhaust>4</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<ComponentIndustrial>38</ComponentIndustrial>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
