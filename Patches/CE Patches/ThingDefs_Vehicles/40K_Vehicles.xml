@@ -49,6 +49,22 @@
 						defName="GW_Chimera_HeavyBolter" or
 						defName="GW_Chimera_Main" or
 						defName="GW_Valkyrie_Bolter" or
+						defName="GW_Rhino_Main"]/projectile</xpath>
+					<value>
+						<projectile>Bullet_HeavyBolter</projectile>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/Vehicles.VehicleTurretDef[
+						defName="GW_AstartesBike_Main" or
+						defName="GW_AMbike_MainB" or
+						defName="GW_LemanRuss_HeavyBolter" or
+						defName="GW_Overlord_Bolter" or
+						defName="GW_Predator_HeavyBolter" or
+						defName="GW_Chimera_HeavyBolter" or
+						defName="GW_Chimera_Main" or
+						defName="GW_Valkyrie_Bolter" or
 						defName="GW_Rhino_Main"]/reloadTimer</xpath>
 					<value>
 						<reloadTimer>7.8</reloadTimer>
@@ -888,7 +904,9 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationReplace">
+				<!-- Probably intended to be unarmored? -->
+
+				<!-- <li Class="PatchOperationReplace">
 					<xpath>Defs/Vehicles.VehicleDef[defName="GW_Predator"]/components/li[key="BackArmorPlating"]/armor/ArmorRating_Blunt</xpath>
 					<value>
 						<ArmorRating_Blunt>40</ArmorRating_Blunt>
@@ -900,7 +918,7 @@
 					<value>
 						<ArmorRating_Sharp>20</ArmorRating_Sharp>
 					</value>
-				</li>
+				</li> -->
 
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/Vehicles.VehicleDef[defName="GW_Predator"]/components/li[key="Roof"]/health</xpath>
