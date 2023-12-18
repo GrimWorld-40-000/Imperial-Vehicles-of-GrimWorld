@@ -7,7 +7,7 @@
 	<ResearchProjectDef ParentName="GW_VoGBase">
 		<defName>GW_VehiclesOfGrimworld</defName>
 		<label>vehicles of grimworld</label>
-		<description>The first step to understanding how to create vehicles used by various factions.</description>
+		<description>The first step to understanding how to create vehicles used by various factions. This reaserch unlock garage doors, vehcile subparts like engine, suspension. To craft those things you need vehicle workbench.</description>
 		<baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -72,31 +72,31 @@
 		<!--Imperium vehicles-->
 	<ResearchProjectDef ParentName="GW_Tier1VehicleResearch">
 		<defName>GW_ImperialVehicles</defName>
-		<label>imperial vehicles</label>
-		<description>Vehicles used by the Imperium of Man.</description>
+		<label>basic imperial vehicles</label>
+		<description>Vehicles used by the Imperium of Man. Basic, mostly light vehicles which are used to move troops, scout and fast attack such as astartes/militarum bike, rhino.</description>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier2VehicleResearch">
 		<defName>GW_AdvancedImperialVehicles</defName>
 		<label>advanced imperial vehicles</label>
-		<description>Vehicles used by the Imperium of Man.</description>
+		<description>Advance vehicles used by the Imperium of Man. Core of Imperial tank such as Lemann russ, Predator and many most popular tanks from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialVehicles</li>
 		</prerequisites>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
-<!--
+
 	<ResearchProjectDef ParentName="GW_Tier3VehicleResearch">
 		<defName>GW_UltimateImperialVehicles</defName>
 		<label>ultimate imperial vehicles</label>
-		<description>Vehicles used by the Imperium of Man.</description>
+		<description>Ultimate vehicles used by the Imperium of Man. This research will contain biggest, strongest Imperial tanks such as Baneblade, Land Raiders, Astreus, Mastodon and flying vehicles such as Overlord gunship and others.</description>
 		<prerequisites>
 			<li>GW_AdvancedImperialVehicles</li>
 		</prerequisites>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
--->
+
 		<!--Necron vehicles-->
 <!--
 	<ResearchProjectDef ParentName="GW_Tier1VehicleResearch">

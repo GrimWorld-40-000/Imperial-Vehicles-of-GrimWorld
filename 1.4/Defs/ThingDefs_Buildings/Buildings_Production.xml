@@ -67,10 +67,9 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 		</researchPrerequisites>
 	</ThingDef>
-
 
 	<WorkGiverDef>
 		<defName>GW_DoBillsVehicleBench</defName>

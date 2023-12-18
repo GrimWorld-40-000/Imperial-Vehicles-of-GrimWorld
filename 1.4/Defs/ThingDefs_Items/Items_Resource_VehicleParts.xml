@@ -47,7 +47,7 @@
 			<recipeUsers>
 				<li>GW_VehicleBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_ImperialVehicles</researchPrerequisite>
+			<researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>

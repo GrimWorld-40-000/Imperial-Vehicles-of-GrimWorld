@@ -53,11 +53,10 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 		</researchPrerequisites>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
 	</ThingDef>
-
 </Defs>

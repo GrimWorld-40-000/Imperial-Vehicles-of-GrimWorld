@@ -40,7 +40,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -190,7 +190,7 @@
 		</comps>
 		<uiIconPath>Things/Building/GarageDoors/GW_GarageDoor_UI</uiIconPath>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 			<li>Autodoors</li>
 		</researchPrerequisites>
 	</ThingDef>
@@ -239,7 +239,7 @@
 		</comps>
 		<uiIconPath>Things/Building/GarageDoors/GW_GarageDoor_UI</uiIconPath>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 			<li>Autodoors</li>
 		</researchPrerequisites>
 	</ThingDef>
@@ -288,7 +288,7 @@
 		</comps>
 		<uiIconPath>Things/Building/GarageDoors/GW_GarageDoor_UI</uiIconPath>
 		<researchPrerequisites>
-			<li>GW_ImperialVehicles</li>
+			<li>GW_VehiclesOfGrimworld</li>
 			<li>Autodoors</li>
 		</researchPrerequisites>
 	</ThingDef>
