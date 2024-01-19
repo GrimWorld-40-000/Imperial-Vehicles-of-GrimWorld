@@ -4,8 +4,15 @@
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy /Y &quot;$(TargetDir)$(ProjectName).dll&quot; &quot;$(SolutionDir)..\..\1.4\Assemblies\$(ProjectName).dll&quot;" />
+  <Target Name="CopyDllPostBuild" AfterTargets="PostBuildEvent">
+      <Message Text="Copying $(ProjectName).dll to 1.4/Assemblies directory" Importance="high" />
+
+      <Copy
+        SourceFiles="$(TargetDir)$(ProjectName).dll"
+        DestinationFolder="../../1.4/Assemblies"
+        />
+
+    <Message Text="Dll copied to 1.4/Assemblies directory" Importance="high" />
   </Target>
 
   <ItemGroup>

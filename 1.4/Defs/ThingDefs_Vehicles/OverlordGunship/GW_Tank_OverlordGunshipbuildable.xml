@@ -25,7 +25,7 @@
 		<size>(7,23)</size>
 		
 		<researchPrerequisites>
-			<li>GW_UltimateImperialVehicles</li>
+			<li>GW_ImperialAirMilitaryEliteVehicleResearch</li>
 		</researchPrerequisites>
 		
 		<costList>

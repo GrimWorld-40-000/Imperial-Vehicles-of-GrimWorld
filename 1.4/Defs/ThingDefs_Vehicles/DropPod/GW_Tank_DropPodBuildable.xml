@@ -24,7 +24,7 @@
 	<size>(7, 7)</size>
 	
 	<researchPrerequisites>
-		<li>GW_ImperialVehicles</li>
+		<li>GW_ImperialAirVehicleResearch</li>
 	</researchPrerequisites>
 	
 	<costList>
