@@ -19,7 +19,7 @@
 		</statBases>
 		<size>(4, 5)</size>
 		<researchPrerequisites>
-			<li>GW_ImperialLandMilitaryHeavyVehicleResearch</li>
+			<li>GW_ImperialLandMilitaryEliteVehicleResearch</li>
 		</researchPrerequisites>
 		<costList>
 			<Steel>650</Steel>
