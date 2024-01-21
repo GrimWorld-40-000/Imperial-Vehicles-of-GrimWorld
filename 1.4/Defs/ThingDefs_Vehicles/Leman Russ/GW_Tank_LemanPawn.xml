@@ -6,19 +6,19 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_LemanRuss</defName>
 		<label>Leman Russ</label>
-		<description>The Leman Russ Battle Tank is the primary main battle tank of the Astra Militarum, and is also the most widely deployed tank in the Imperium. This medium tank is named after the primarch of the Space Wolves, Leman Russ. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>In the grim and war-torn realm of GrimWorld 40,000, the Lemann Russ Heavy Battle Tank is a juggernaut of destruction. Crafted with a rugged and imposing design, this behemoth of the battlefield stands as a symbol of the Imperium's indomitable might.\n\nClad in battle-scarred plating adorned with Imperial iconography, the Lemann Russ exudes an aura of resilience. Its hull is a canvas of testament, bearing witness to countless engagements in service to the Emperor. This heavy tank embodies the uncompromising and utilitarian aesthetic of the 41st millennium.\n\n its robust chassis sits the formidable Main Battle Cannon, a weapon of raw and devastating power. The cannon's sleek barrel and menacing presence underscore its role as a primary anti-armor and anti-infantry armament. Each shot fired echoes the Imperium's determination to repel the encroaching darkness.\n\nAs it rolls across the battlefield, the Lemann Russ symbolizes the relentless might of the Imperium, a bastion against the myriad threats that plague GrimWorld 40,000. Its presence is both a harbinger of destruction and a stalwart defender of the Emperor's domain. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(5, 5)</drawSize>
+			<drawSize>(6, 6)</drawSize>
 			<color>(155, 155, 155)</color>
 			<colorTwo>(65, 75, 80)</colorTwo>
 			<colorThree>(45, 50, 45)</colorThree>
 		</graphicData>
 		<fillPercent>1</fillPercent>
 		<buildDef>GW_LemanRuss_Blueprint</buildDef>
-		<size>(4, 4)</size>
+		<size>(5, 5)</size>
 		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
@@ -373,10 +373,10 @@
 					<li>
 						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
-							<north>(-1.65, 0.35)</north>
-							<south>(1.65, -0.35)</south>
-							<east>(0.45, 1.75)</east>
-							<west>(-0.45, -1.75)</west>
+							<north>(-2.05, 0.35)</north>
+							<south>(1.95, -0.35)</south>
+							<east>(0.45, 2.1)</east>
+							<west>(-0.45, -2.1)</west>
 						</renderProperties>
 						<gizmoLabel>Left Turret</gizmoLabel>
 						<angleRestricted>(-145, 10)</angleRestricted>
@@ -387,10 +387,10 @@
 					<li>
 						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
-							<north>(-0.2, 1.3)</north>
-							<south>(0.3, -1.0)</south>
-							<east>(1.3, 0.3)</east>
-							<west>(-1.3, -0.3)</west>
+							<north>(0.4, 1.6)</north>
+							<south>(0.3, -1.3)</south>
+							<east>(1.6, 0.5)</east>
+							<west>(-1.6, -0.5)</west>
 						</renderProperties>
 						<gizmoLabel>Frontal Turret</gizmoLabel>
 						<angleRestricted>(-65, 65)</angleRestricted>
@@ -401,10 +401,10 @@
 					<li>
 						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
-							<north>(1.65, 0.35)</north>
-							<south>(-1.65, -0.35)</south>
-							<east>(0.45, -1.75)</east>
-							<west>(-0.45, 1.75)</west>
+							<north>(2.05, 0.35)</north>
+							<south>(-1.95, -0.35)</south>
+							<east>(0.45, -2.1)</east>
+							<west>(-0.45, 2.1)</west>
 						</renderProperties>
 						<gizmoLabel>Right Turret</gizmoLabel>
 						<angleRestricted>(-10, 145)</angleRestricted>

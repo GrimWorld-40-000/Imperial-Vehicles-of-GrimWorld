@@ -25,7 +25,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Predator_MainTurret</defName>
 		<label>Predator main autocannon</label>
-		<description>Autocannon turret.</description>
+		<description>The Autocannon, a potent ballistic weapon in GrimWorld 40,000, is mounted on a robust vehicle. With a sleek design and formidable presence, this versatile armament embodies precision and rapid-fire capability. Integrated into battle-tested plating, the vehicle signifies the Imperium's relentless might in confronting armored and infantry threats on the tumultuous battlefield.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_Predator_MainTurret</projectile>
@@ -96,7 +96,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Predator_HeavyBolter</defName>
 		<label>Predator Heavy Bolter</label>
-		<description>Heavy bolter sponsor turret.</description>
+		<description>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>HP_Bullet_HeavyBolter</projectile>
