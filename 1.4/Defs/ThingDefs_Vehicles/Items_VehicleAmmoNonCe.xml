@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>GW_HeavyBolterNonCE</defName>
+    <label>Heavy Bolter Ammo (non CE)</label>
+    <description>Bolter boolet.</description>
+    <graphicData>
+      <texPath>Things/Ammo/HeavyBolter1.0CAL</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>0.32</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.0</Flammability>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GW_VehicleBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <soundWorking>Recipe_Machining</soundWorking>
+        <productCount>100</productCount>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GW_AutocannonammoNonCE</defName>
+    <label>Auto Cannon Ammo (non CE)</label>
+    <description>Bolter boolet.</description>
+    <graphicData>
+      <texPath>Things/Ammo/AutoCannon</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>0.32</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.0</Flammability>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GW_VehicleBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <soundWorking>Recipe_Machining</soundWorking>
+        <productCount>50</productCount>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GW_BattleCannonShellNonCE</defName>
+    <label>Battle Cannon Shell (non CE)</label>
+    <description>Bolter boolet.</description>
+    <graphicData>
+      <texPath>Things/Ammo/BattleCannon</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>0.32</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.0</Flammability>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GW_VehicleBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <soundWorking>Recipe_Machining</soundWorking>
+        <productCount>30</productCount>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GW_LascannonammoNonCE</defName>
+    <label>Lascannon Ammunition (non CE)</label>
+    <description>lasgun Charges.</description>
+    <graphicData>
+      <texPath>Things/Ammo/Lascannons/LascannonAmmunition</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>0.32</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.0</Flammability>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GW_VehicleBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <soundWorking>Recipe_Machining</soundWorking>
+        <productCount>100</productCount>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+
+</Defs>

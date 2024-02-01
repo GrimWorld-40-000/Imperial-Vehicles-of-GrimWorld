@@ -8,7 +8,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		
 		<graphicData>
-			<texPath>Things/Projectile/Charge_Small</texPath>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -135,7 +135,7 @@
 		
 		<ammunition>
 			<thingDefs>
-				<li>Steel</li>
+				<li>GW_LascannonammoNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
@@ -201,7 +201,7 @@
 
 		<ammunition>
 			<thingDefs>
-				<li>Steel</li>
+				<li>GW_HeavyBolterNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
