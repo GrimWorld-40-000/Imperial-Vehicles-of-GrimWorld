@@ -10,7 +10,7 @@
 		<description>The first step to understanding how to create vehicles used by various factions. This reaserch unlock garage doors, vehcile subparts like engine, suspension. To craft those things you need vehicle workbench.</description>
 		<baseCost>5000</baseCost>
 		<prerequisites>
-			<li>AdvancedFabrication</li>
+			<li>Fabrication</li>
 		</prerequisites>
 		<researchViewX>11.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
