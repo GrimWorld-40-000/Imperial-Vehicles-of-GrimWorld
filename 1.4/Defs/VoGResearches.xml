@@ -8,7 +8,7 @@
 		<defName>GW_VehiclesOfGrimworld</defName>
 		<label>vehicles of grimworld</label>
 		<description>The first step to understanding how to create vehicles used by various factions. This reaserch unlock garage doors, vehcile subparts like engine, suspension. To craft those things you need vehicle workbench.</description>
-		<baseCost>5000</baseCost>
+		<baseCost>2000</baseCost>
 		<prerequisites>
 			<li>Fabrication</li>
 		</prerequisites>
@@ -19,7 +19,7 @@
 	<!--All vehicle researches are given a tier to make it easier to update and add on to. If desired, a tier can be completely skipped(i.e. have a Basic vehicles(1) and an Ultimate vehicles(3))-->
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier1LandVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>10000</baseCost>
+		<baseCost>3500</baseCost>
 		<prerequisites>
 			<li>GW_VehiclesOfGrimworld</li>
 		</prerequisites>
@@ -43,12 +43,12 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier2LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>11000</baseCost>
+		<baseCost>5000</baseCost>
 		<researchViewX>13.00</researchViewX>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier3LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>12000</baseCost>
+		<baseCost>6000</baseCost>
 		<researchViewX>14.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -64,7 +64,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier4LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>13000</baseCost>
+		<baseCost>6000</baseCost>
 		<researchViewX>15.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -80,7 +80,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier5LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>14000</baseCost>
+		<baseCost>7500</baseCost>
 		<researchViewX>16.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -96,7 +96,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier1AirVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>10000</baseCost>
+		<baseCost>6000</baseCost>
 		<researchViewX>12.00</researchViewX>
 		<prerequisites>
 			<li>GW_VehiclesOfGrimworld</li>
@@ -104,7 +104,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier2AirMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>11000</baseCost>
+		<baseCost>7000</baseCost>
 		<researchViewX>13.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -120,7 +120,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier3AirMilitaryVehicleResearch" ParentName="GW_VoGBase">
-		<baseCost>14000</baseCost>
+		<baseCost>8500</baseCost>
 		<researchViewX>16.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -138,86 +138,76 @@
 	<!--Imperium vehicles-->
 	<ResearchProjectDef ParentName="GW_Tier1LandVehicleResearch">
 		<defName>GW_ImperialLandVehicleResearch</defName>
-		<label>Imperial Basic Land Vehicles</label>
-		<description>Light land vehicles used by the Imperium of Man. Core of Imperial bikes from Warhammer 40,000 universe.</description>
-		<researchViewY>0.00</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="GW_Tier2LandTransportVehicleResearch">
-		<defName>GW_ImperialLandTransportVehicleResearch</defName>
-		<label>Imperial Land Transports</label>
-		<description>Light land transport vehicles used by the Imperium of Man. Core of Imperial transport vehicles, like the Taurox, from Warhammer 40,000 universe.</description>
-		<prerequisites>
-			<li>GW_ImperialLandVehicleResearch</li>
-		</prerequisites>
+		<label>Imperial bikes</label>
+		<description>Bikes used by the Imperium of Man. Core of Imperial bikes from Warhammer 40,000 universe.</description>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier2LandMilitaryVehicleResearch">
 		<defName>GW_ImperialLandMilitaryLightVehicleResearch</defName>
-		<label>Imperial Land Light Military</label>
-		<description>Light land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Rhino, from Warhammer 40,000 universe.</description>
+		<label>Imperial land transport</label>
+		<description>Light land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Rhino or Taurox, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialLandVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>1.00</researchViewY>
+		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier3LandMilitaryVehicleResearch">
 		<defName>GW_ImperialLandMilitaryMediumVehicleResearch</defName>
-		<label>Imperial Land Medium Military</label>
+		<label>Imperial basic tanks</label>
 		<description>Medium land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Chimera, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>1.00</researchViewY>
+		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>0
 
 	<ResearchProjectDef ParentName="GW_Tier4LandMilitaryVehicleResearch">
 		<defName>GW_ImperialLandMilitaryHeavyVehicleResearch</defName>
-		<label>Imperial Land Heavy Military</label>
+		<label>Imperial advanced tanks</label>
 		<description>Heavy land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Leman Russ, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialLandMilitaryMediumVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>1.00</researchViewY>
+		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier5LandMilitaryVehicleResearch">
 		<defName>GW_ImperialLandMilitaryEliteVehicleResearch</defName>
-		<label>Imperial Land Elite Military</label>
+		<label>Imperial ultimate tanks</label>
 		<description>Elite land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Predator, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialLandMilitaryHeavyVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>1.00</researchViewY>
+		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier1AirVehicleResearch">
 		<defName>GW_ImperialAirVehicleResearch</defName>
-		<label>Imperial Basic Aircrafts</label>
+		<label>Imperial basic aircrafts</label>
 		<description>Basic air vehicles used by the Imperium of Man. Core of Imperial drop pods from Warhammer 40,000 universe.</description>
-		<researchViewY>2.00</researchViewY>
+		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier2AirMilitaryVehicleResearch">
 		<defName>GW_ImperialAirMilitaryVehicleResearch</defName>
-		<label>Imperial Light Military Aircrafts</label>
+		<label>Imperial advanced aircrafts</label>
 		<description>Light military aircrafts used by the Imperium of Man. Core of Imperial military aircrafts, like the Valkyrie, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialAirVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>2.00</researchViewY>
+		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_Tier3AirMilitaryVehicleResearch">
 		<defName>GW_ImperialAirMilitaryEliteVehicleResearch</defName>
-		<label>Imperial Elite Military Aircrafts</label>
+		<label>Imperial ultimate aircrafts</label>
 		<description>Elite military aircrafts used by the Imperium of Man. Core of Imperial military aircrafts, like the Overlord, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialAirMilitaryVehicleResearch</li>
 		</prerequisites>
-		<researchViewY>2.00</researchViewY>
+		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>
 
 		<!--Necron vehicles-->
