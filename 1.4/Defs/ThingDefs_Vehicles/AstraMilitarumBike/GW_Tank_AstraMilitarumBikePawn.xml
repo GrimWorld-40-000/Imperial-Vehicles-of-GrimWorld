@@ -90,8 +90,8 @@
 		</statBases>
 		<vehicleStats>
 			<Mass>525</Mass>
-			<MoveSpeed>8</MoveSpeed>
-			<CargoCapacity>500</CargoCapacity>
+			<MoveSpeed>12</MoveSpeed>
+			<CargoCapacity>200</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.07</AccelerationRate>
 		</vehicleStats>

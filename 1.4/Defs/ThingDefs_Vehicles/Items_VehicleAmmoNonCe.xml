@@ -174,4 +174,48 @@
     </costList>
   </ThingDef>
 
+  <ThingDef ParentName="ResourceBase">
+    <defName>GW_HeavyPlasmaNonCE</defName>
+    <label>Heavy Plasma Ammo (non CE)</label>
+    <description>Bolter boolet.</description>
+    <graphicData>
+      <texPath>Things/Ammo/PlasmaGun</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>0.32</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0.0</Flammability>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Spacer</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <recipeMaker>
+      <researchPrerequisite>GW_VehiclesOfGrimworld</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GW_VehicleBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <soundWorking>Recipe_Machining</soundWorking>
+        <productCount>10</productCount>
+    </recipeMaker>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+  </ThingDef>
+
 </Defs>

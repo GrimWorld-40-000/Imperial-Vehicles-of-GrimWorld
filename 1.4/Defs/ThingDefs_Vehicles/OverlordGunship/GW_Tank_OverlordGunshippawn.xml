@@ -38,7 +38,7 @@
 		<vehicleStats>
 			<Mass>80</Mass>
 			<MoveSpeed>8.6</MoveSpeed>
-			<CargoCapacity>4000</CargoCapacity>
+			<CargoCapacity>5000</CargoCapacity>
 			<RepairRate>1</RepairRate>
 			<FlightSpeed>190</FlightSpeed>
 		</vehicleStats>
@@ -98,8 +98,8 @@
 		<components>
 			<li>
 				<key>Engine</key>
-				<label>Vanometric Cell</label>
-				<health>130</health>
+				<label>Mini Plasma Reactor</label>
+				<health>330</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>Internal</depth>
 				
@@ -125,7 +125,7 @@
 			<li>
 				<key>FirstThruster</key>
 				<label>Rear Thrusters</label>
-				<health>280</health>
+				<health>480</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -141,7 +141,7 @@
 			<li>
 				<key>SecondThruster</key>
 				<label>Left Side Thruster</label>
-				<health>280</health>
+				<health>480</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -157,7 +157,7 @@
 			<li>
 				<key>ThirdThruster</key>
 				<label>Right Side Thruster</label>
-				<health>280</health>
+				<health>480</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -173,7 +173,7 @@
 			<li>
 				<key>Rightwings</key>
 				<label>Right Wings</label>
-				<health>180</health>
+				<health>380</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -189,7 +189,7 @@
 			<li>
 				<key>Leftwings</key>
 				<label>Left Wings</label>
-				<health>180</health>
+				<health>480</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -205,7 +205,7 @@
 			<li>
 				<key>Primaryplating</key>
 				<label>Primary Composite Plating</label>
-				<health>380</health>
+				<health>680</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -225,7 +225,7 @@
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
 				<fuelConsumptionRate>26.5</fuelConsumptionRate>
-				<fuelCapacity>300</fuelCapacity>
+				<fuelCapacity>400</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>

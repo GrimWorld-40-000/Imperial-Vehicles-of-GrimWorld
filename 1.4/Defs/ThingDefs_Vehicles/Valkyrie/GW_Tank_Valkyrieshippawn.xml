@@ -97,7 +97,7 @@
 		<vehicleStats>
 			<Mass>80</Mass>
 			<MoveSpeed>8.6</MoveSpeed>
-			<CargoCapacity>4000</CargoCapacity>
+			<CargoCapacity>1500</CargoCapacity>
 			<RepairRate>1</RepairRate>
 			<FlightSpeed>90</FlightSpeed>
 		</vehicleStats>
@@ -168,8 +168,8 @@
 		<components>
 			<li>
 				<key>Engine</key>
-				<label>Vanometric Cell</label>
-				<health>130</health>
+				<label>Vector Turbofans Center</label>
+				<health>100</health>
 				<priorityStatEfficiency>true</priorityStatEfficiency>
 				<depth>Internal</depth>
 				
@@ -193,25 +193,9 @@
 				</categories>
 			</li>
 			<li>
-				<key>FirstThruster</key>
-				<label>Rear Thrusters</label>
-				<health>280</health>
-				<depth>External</depth>
-				
-				<hitbox>
-					<side>Back</side>
-				</hitbox>
-				
-				<categories>
-					<li>MoveSpeed</li>
-					<li>FlightControl</li>
-					<li>FlightSpeed</li>
-				</categories>
-			</li>
-			<li>
 				<key>SecondThruster</key>
-				<label>Left Side Thruster</label>
-				<health>280</health>
+				<label>Vector Turbofans Left</label>
+				<health>200</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -226,8 +210,9 @@
 			</li>
 			<li>
 				<key>ThirdThruster</key>
-				<label>Right Side Thruster</label>
-				<health>280</health>
+				<label>Vector Turbofans Right
+</label>
+				<health>200</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -243,7 +228,7 @@
 			<li>
 				<key>Rightwings</key>
 				<label>Right Wings</label>
-				<health>180</health>
+				<health>110</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -259,7 +244,7 @@
 			<li>
 				<key>Leftwings</key>
 				<label>Left Wings</label>
-				<health>180</health>
+				<health>110</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -275,7 +260,7 @@
 			<li>
 				<key>Primaryplating</key>
 				<label>Primary Composite Plating</label>
-				<health>380</health>
+				<health>310</health>
 				<depth>External</depth>
 				
 				<hitbox>
@@ -295,7 +280,7 @@
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
 				<fuelConsumptionRate>26.5</fuelConsumptionRate>
-				<fuelCapacity>300</fuelCapacity>
+				<fuelCapacity>320</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>

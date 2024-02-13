@@ -26,12 +26,12 @@
 			<ArmorRating_Sharp>1.78</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Flammability>0.25</Flammability>
-			<MarketValue>4200</MarketValue>
+			<MarketValue>2200</MarketValue>
 		</statBases>
 		<vehicleStats>
 			<Mass>525</Mass>
 			<MoveSpeed>8</MoveSpeed>
-			<CargoCapacity>5500</CargoCapacity>
+			<CargoCapacity>4500</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
 		</vehicleStats>

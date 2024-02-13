@@ -32,7 +32,7 @@
 		<reloadTimer>4.0</reloadTimer>
 		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>1</magazineCapacity>
-		<chargePerAmmoCount>10</chargePerAmmoCount>
+		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
 		<hitFlags>IntendedTarget</hitFlags>
 		<autoSnapTargeting>false</autoSnapTargeting>
