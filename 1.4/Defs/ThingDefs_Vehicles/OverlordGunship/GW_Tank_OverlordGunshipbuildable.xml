@@ -36,7 +36,8 @@
 			<GW_JetEngine>4</GW_JetEngine>
 			<GW_VehicleExhaust>4</GW_VehicleExhaust>
 			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
-			<ComponentIndustrial>38</ComponentIndustrial>'
+			<ComponentIndustrial>38</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
 			<GW_ComponentRelic>3</GW_ComponentRelic>
 		</costList>
 		
