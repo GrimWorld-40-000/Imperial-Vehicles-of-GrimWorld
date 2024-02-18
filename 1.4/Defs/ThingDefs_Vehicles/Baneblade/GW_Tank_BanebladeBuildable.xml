@@ -14,7 +14,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToBuild>15000</WorkToBuild>
+			<WorkToBuild>20000</WorkToBuild>
 			<Flammability>0.05</Flammability>
 		</statBases>
 		<size>(9, 11)</size>
@@ -32,6 +32,8 @@
 			<GW_VehicleTracks>2</GW_VehicleTracks>
 			<GW_VehicleWheel>16</GW_VehicleWheel>
 			<ComponentIndustrial>26</ComponentIndustrial>
+			<ComponentSpacer>11</ComponentSpacer>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<thingToSpawn>GW_Baneblade</thingToSpawn>
