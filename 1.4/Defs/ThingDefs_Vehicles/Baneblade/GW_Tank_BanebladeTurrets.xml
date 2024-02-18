@@ -60,7 +60,7 @@
 		<rotationSpeed>3.5</rotationSpeed>
 		<projectileOffset>4.0</projectileOffset>
 		<projectileShifting>
-			<li>-5.0</li>
+			<li>0.5</li>
 		</projectileShifting>
 		<minRange>5</minRange>
 		<maxRange>45.9</maxRange>
@@ -308,7 +308,7 @@
 			</li>
 		</fireModes>
 		<graphicData>
-			<texPath>Things/Vehicles/BaneBlade/DemolisherIcon</texPath>
+			<texPath>Things/Vehicles/Baneblade/DemolisherIcon</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(0, 0)</drawSize>
