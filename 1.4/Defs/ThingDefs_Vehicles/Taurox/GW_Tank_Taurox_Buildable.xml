@@ -22,7 +22,7 @@
 		<size>(3, 5)</size>
 		
 		<researchPrerequisites>
-			<li>GW_ImperialLandTransportVehicleResearch</li>
+			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
 		</researchPrerequisites>
 		
 		<costList>
