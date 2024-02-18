@@ -14,7 +14,7 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>54</damageAmountBase>
 			<speed>95</speed>
-			<explosionRadius>5.9</explosionRadius>
+			<explosionRadius>1.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
