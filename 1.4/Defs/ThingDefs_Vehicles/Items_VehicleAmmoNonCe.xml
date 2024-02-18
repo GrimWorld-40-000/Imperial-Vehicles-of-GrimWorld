@@ -2,8 +2,8 @@
 <Defs>
   <ThingDef ParentName="ResourceBase">
     <defName>GW_HeavyBolterNonCE</defName>
-    <label>Heavy Bolter Ammo (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Heavy bolter ammunition (non CE)</label>
+    <description>Heavy Bolter ammunition.\n\nThis ammo type features an enlarged caliber and dark, durable casings for maximum impact.</description>
     <graphicData>
       <texPath>Things/Ammo/HeavyBolter1.0CAL</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -15,7 +15,7 @@
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
       <WorkToMake>100</WorkToMake>
     </statBases>
@@ -45,8 +45,8 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_AutocannonammoNonCE</defName>
-    <label>Auto Cannon Ammo (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Autocannon ammunition (non CE)</label>
+    <description>Autocannon ammunition.\n\nAutocannon ammo is crafted with precision, each round features an enlarged caliber and robust, dark casings.</description>
     <graphicData>
       <texPath>Things/Ammo/AutoCannon</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -54,13 +54,13 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-    <stackLimit>500</stackLimit>
+    <stackLimit>50</stackLimit>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <MarketValue>0.60</MarketValue>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>230</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -82,14 +82,15 @@
         <productCount>50</productCount>
     </recipeMaker>
     <costList>
-      <Steel>20</Steel>
+      <Steel>100</Steel>
+	  <Plasteel>5</Plasteel>
     </costList>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BattleCannonShellNonCE</defName>
-    <label>Battle Cannon Shell (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Battle cannon shell (non CE)</label>
+    <description>Battle cannon ammunition.\n\nThis type of ammo is a devastating artillery piece with a sleek and menacing design. Crafted for maximum impact, this heavy cannon unleashes powerful explosive rounds, capable of decimating enemy forces and fortifications on the battlefield.</description>
     <graphicData>
       <texPath>Things/Ammo/BattleCannon</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -97,13 +98,13 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-    <stackLimit>500</stackLimit>
+    <stackLimit>100</stackLimit>
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>130</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -122,18 +123,19 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
       <soundWorking>Recipe_Machining</soundWorking>
-        <productCount>30</productCount>
+        <productCount>20</productCount>
     </recipeMaker>
     <costList>
-      <Steel>20</Steel>
+      <Steel>170</Steel>
+	  <Plasteel>10</Plasteel>
     </costList>
   </ThingDef>
 
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_LascannonammoNonCE</defName>
-    <label>Lascannon Ammunition (non CE)</label>
-    <description>lasgun Charges.</description>
+    <label>Lascannon ammunition (non CE)</label>
+    <description>Lascannon ammunition.\n\nThis ammunition is a potent battery pack designed for the formidable Lascannon.The Lascannon unleashes these powerful energy projectiles with precision, capable of piercing through heavy armor and dealing significant damage to high-value targets on the battlefield.</description>
     <graphicData>
       <texPath>Things/Ammo/Lascannons/LascannonAmmunition</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -145,9 +147,9 @@
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>240</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -176,8 +178,8 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_HeavyPlasmaNonCE</defName>
-    <label>Heavy Plasma Ammo (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Plasmacannon ammunition (non CE)</label>
+    <description>Plasmacannon ammunition.\n\nWith a sleek, heat resistant cartridges design each round is crafted for controlled energy release. Those are much bigger cartridges than for standard infantry version of plasma weapons.</description>
     <graphicData>
       <texPath>Things/Ammo/PlasmaGun</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -188,10 +190,10 @@
     <stackLimit>500</stackLimit>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <MarketValue>0.50</MarketValue>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>200</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -213,15 +215,16 @@
         <productCount>10</productCount>
     </recipeMaker>
     <costList>
-      <Steel>20</Steel>
-      <ComponentSpacer>1</ComponentSpacer>
+      <Steel>50</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+	  <HP_Ceramite>2</HP_Ceramite>
     </costList>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BanePrimaryCannonShellNonCE</defName>
-    <label>BaneBlade Primary Cannon Shell (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Baneblade primary cannon shell (non CE)</label>
+    <description>Baneblade primary cannon shell.\n\nEach shell is meticulously crafted for unparalleled destruction. The Baneblade's cannon unleashes these massive projectiles with catastrophic force, capable of obliterating enemy armor and structures on the battlefield.</description>
     <graphicData>
       <texPath>Things/Vehicles/Baneblade/MegaBC</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -229,13 +232,13 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-    <stackLimit>500</stackLimit>
+    <stackLimit>50</stackLimit>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <MarketValue>30</MarketValue>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>440</WorkToMake>
     </statBases>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -257,15 +260,18 @@
         <productCount>5</productCount>
     </recipeMaker>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
-      <Steel>30</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>150</Steel>
+	  <Plasteel>50</Plasteel>
+	  <HP_Ceramite>10</HP_Ceramite>
+	  <Chemfuel>60</Chemfuel>
     </costList>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BaneDemolisherCannonShellNonCE</defName>
-    <label>Demolisher Cannon Shell (non CE)</label>
-    <description>Bolter boolet.</description>
+    <label>Demolisher cannon shell (non CE)</label>
+    <description>Demolisher cannon shell.\n\nThe Demolisher Cannon unleashes these massive projectiles with catastrophic force, capable of obliterating enemy fortifications and densely packed targets on the battlefield.</description>
     <graphicData>
 	<texPath>Things/Vehicles/Baneblade/Demolisher</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -273,11 +279,11 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-    <stackLimit>500</stackLimit>
+    <stackLimit>100</stackLimit>
     <useHitPoints>false</useHitPoints>
     <statBases>
-      <MarketValue>0.32</MarketValue>
-      <Mass>0.01</Mass>
+      <MarketValue>15</MarketValue>
+      <Mass>0.05</Mass>
       <Flammability>0.0</Flammability>
       <WorkToMake>100</WorkToMake>
     </statBases>
