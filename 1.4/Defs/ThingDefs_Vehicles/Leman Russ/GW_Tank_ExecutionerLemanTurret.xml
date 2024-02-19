@@ -12,9 +12,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>250</damageAmountBase>
+			<damageAmountBase>200</damageAmountBase>
 			<speed>50</speed>
-			<explosionRadius>5.9</explosionRadius>
+			<explosionRadius>2.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
@@ -30,8 +30,8 @@
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_LemanRussExecutioner_MainTurret</projectile>
-		<reloadTimer>10.0</reloadTimer>
-		<warmUpTimer>2.0</warmUpTimer>
+		<reloadTimer>12.0</reloadTimer>
+		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>6</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
