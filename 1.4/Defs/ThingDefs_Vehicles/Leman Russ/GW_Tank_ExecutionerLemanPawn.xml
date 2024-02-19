@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!--===== Predator =====-->
-
+<!--===== Leman Russ =====-->
+	
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
-		<defName>GW_Predator</defName>
-		<label>Predator</label>
-		<description>In the grim theater of GrimWorld 40,000, the Predator Tank emerges as a relentless war machine. With its iconic design and battle-hardened presence, this armored behemoth symbolizes the indomitable might of the Imperium in the tumultuous 41st millennium.\n\nClad in scarred plating and adorned with Imperial symbols, the Predator Tank bears witness to countless engagements, reflecting its unwavering commitment to the Emperor's cause. Its utilitarian yet imposing aesthetic speaks to the harsh realities of warfare in a galaxy consumed by darkness.\n\nFeaturing a lethal array of weaponry, the Predator Tank is a symbol of devastating firepower on the battlefield. Whether engaging armored targets or sweeping through infantry lines, it stands as a stalwart defender of the Imperium's dominion.\n\nAs it rumbles across the war-torn landscape, the Predator Tank embodies the relentless spirit of the Imperium, a bulwark against the encroaching shadows and a testament to the unyielding strength of GrimWorld 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<defName>GW_LemanRussExecutioner</defName>
+		<label>Leman Russ Executioner</label>
+		<description>In the grim and war-torn realm of GrimWorld 40,000, the Lemann Russ Heavy Battle Tank is a juggernaut of destruction. Crafted with a rugged and imposing design, this behemoth of the battlefield stands as a symbol of the Imperium's indomitable might.\n\nClad in battle-scarred plating adorned with Imperial iconography, the Lemann Russ exudes an aura of resilience. Its hull is a canvas of testament, bearing witness to countless engagements in service to the Emperor. This heavy tank embodies the uncompromising and utilitarian aesthetic of the 41st millennium.\n\n its robust chassis sits the formidable Main Battle Cannon, a weapon of raw and devastating power. The cannon's sleek barrel and menacing presence underscore its role as a primary anti-armor and anti-infantry armament. Each shot fired echoes the Imperium's determination to repel the encroaching darkness.\n\nAs it rolls across the battlefield, the Lemann Russ symbolizes the relentless might of the Imperium, a bastion against the myriad threats that plague GrimWorld 40,000. Its presence is both a harbinger of destruction and a stalwart defender of the Emperor's domain. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
-			<texPath>Things/Vehicles/Predator/Predator</texPath>
+			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(5, 5)</drawSize>
+			<drawSize>(6, 6)</drawSize>
 			<color>(155, 155, 155)</color>
 			<colorTwo>(65, 75, 80)</colorTwo>
 			<colorThree>(45, 50, 45)</colorThree>
 		</graphicData>
 		<fillPercent>1</fillPercent>
-		<buildDef>GW_Predator_Blueprint</buildDef>
-		<size>(4, 5)</size>
+		<buildDef>GW_LemanRussExecutioner_Blueprint</buildDef>
+		<size>(5, 5)</size>
 		<vehicleMovementPermissions>DriverNeeded</vehicleMovementPermissions>
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Land</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>1.32</ArmorRating_Blunt>
-			<ArmorRating_Sharp>2.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.08</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.9</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 			<Flammability>0.25</Flammability>
 			<MarketValue>4200</MarketValue>
 		</statBases>
 		<vehicleStats>
-			<Mass>475</Mass>
-			<MoveSpeed>9.4</MoveSpeed>
-			<CargoCapacity>350</CargoCapacity>
+			<Mass>590</Mass>
+			<MoveSpeed>8.2</MoveSpeed>
+			<CargoCapacity>225</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
-			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.09</AccelerationRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
 		
 		<soundSustainersOnEvent>
@@ -70,12 +70,13 @@
 				<li>
 					<key>gunner</key>
 					<label>Gunner</label>
-					<slots>2</slots>
+					<slots>1</slots>
 					<slotsToOperate>1</slotsToOperate>
 					<handlingTypes>Turret</handlingTypes>
 					<turretIds>
 						<li>mainTurret</li>
 						<li>leftMountedTurret</li>
+						<li>frontMountedTurret</li>
 						<li>rightMountedTurret</li>
 					</turretIds>
 				</li>
@@ -248,8 +249,8 @@
 				<health>300</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.72</ArmorRating_Blunt>
+					<ArmorRating_Sharp>3.04</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Front</side>
@@ -258,11 +259,11 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>225</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Left</side>
@@ -271,11 +272,11 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>225</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
-					<ArmorRating_Blunt>1.38</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.58</ArmorRating_Sharp>
+					<ArmorRating_Blunt>1.17</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.07</ArmorRating_Sharp>
 				</armor>
 				<hitbox>
 					<side>Right</side>
@@ -284,8 +285,12 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>190</health>
+				<health>205</health>
 				<depth>External</depth>
+				<armor>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
+				</armor>
 				<hitbox>
 					<side>Back</side>
 				</hitbox>
@@ -293,10 +298,16 @@
 			<li>
 				<key>FuelTank</key>
 				<label>Fuel Tank</label>
-				<health>150</health>
+				<health>125</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak" />
+					<li Class="Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.15</chance>
+						<radius>5</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
 				</reactors>
 				<hitbox>
 					<cells>
@@ -314,7 +325,7 @@
 			<li>
 				<key>SteeringApparatus</key>
 				<label>Steering Apparatus</label>
-				<health>50</health>
+				<health>55</health>
 				<depth>Internal</depth>
 				<hitWeight>5</hitWeight>
 			</li>
@@ -329,62 +340,76 @@
 				<label>Roof</label>
 				<health>170</health>
 				<depth>External</depth>
-				<hitWeight>10</hitWeight>
 				<armor>
-					<ArmorRating_Blunt>1.16</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.34</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
 				</armor>
+				<hitWeight>10</hitWeight>
 			</li>
 		</components>
 		<comps>
 			<li Class="Vehicles.CompProperties_FueledTravel">
 				<fuelType>Chemfuel</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
-				<fuelConsumptionRate>32</fuelConsumptionRate>
-				<fuelConsumptionWorldMultiplier>0.75</fuelConsumptionWorldMultiplier>
-				<fuelCapacity>115</fuelCapacity>
+				<fuelConsumptionRate>34</fuelConsumptionRate>
+				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
+				<fuelCapacity>130</fuelCapacity>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
 					<li>
-						<turretDef>GW_Predator_MainTurret</turretDef>
+						<turretDef>GW_LemanRussExecutioner_MainTurret</turretDef>
 						<renderProperties>
 							<north>(0, 0.1)</north>
-							<south>(0, 0.2)</south>
-							<east>(0, 0.5)</east>
+							<south>(0, -0.1)</south>
+							<east>(0.1, 0.1)</east>
 						</renderProperties>
 						<gizmoLabel>Main Turret</gizmoLabel>
 						<angleRestricted />
-						<aimPieOffset>(0, 2.0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
+						<aimPieOffset>(0, 1.75)</aimPieOffset>
+						<drawLayer>2</drawLayer>
 						<key>mainTurret</key>
 					</li>
 					<li>
-						<turretDef>GW_Predator_HeavyBolter</turretDef>
+						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
-							<north>(-1.65, -0.1)</north>
-							<south>(1.65, 0.1)</south>
-							<east>(0, 1.85)</east>
-							<west>(0, -1.05)</west>
+							<north>(-2.05, 0.35)</north>
+							<south>(1.95, -0.35)</south>
+							<east>(0.45, 2.1)</east>
+							<west>(-0.45, -2.1)</west>
 						</renderProperties>
 						<gizmoLabel>Left Turret</gizmoLabel>
-						<angleRestricted>(180, 0)</angleRestricted>
+						<angleRestricted>(-145, 10)</angleRestricted>
 						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>2</drawLayer>
+						<drawLayer>1</drawLayer>
 						<key>leftMountedTurret</key>
 					</li>
 					<li>
-						<turretDef>GW_Predator_HeavyBolter</turretDef>
+						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
-							<north>(1.65, -0.1)</north>
-							<south>(-1.65, 0.1)</south>
-							<east>(0, -1.05)</east>
-							<west>(0, 1.85)</west>
+							<north>(0.4, 1.6)</north>
+							<south>(0.3, -1.3)</south>
+							<east>(1.6, 0.5)</east>
+							<west>(-1.6, -0.5)</west>
+						</renderProperties>
+						<gizmoLabel>Frontal Turret</gizmoLabel>
+						<angleRestricted>(-65, 65)</angleRestricted>
+						<aimPieOffset>(0, 0)</aimPieOffset>
+						<drawLayer>1</drawLayer>
+						<key>frontMountedTurret</key>
+					</li>
+					<li>
+						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
+						<renderProperties>
+							<north>(2.05, 0.35)</north>
+							<south>(-1.95, -0.35)</south>
+							<east>(0.45, -2.1)</east>
+							<west>(-0.45, 2.1)</west>
 						</renderProperties>
 						<gizmoLabel>Right Turret</gizmoLabel>
-						<angleRestricted>(0, 180)</angleRestricted>
+						<angleRestricted>(-10, 145)</angleRestricted>
 						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>2</drawLayer>
+						<drawLayer>1</drawLayer>
 						<key>rightMountedTurret</key>
 					</li>
 				</turrets>

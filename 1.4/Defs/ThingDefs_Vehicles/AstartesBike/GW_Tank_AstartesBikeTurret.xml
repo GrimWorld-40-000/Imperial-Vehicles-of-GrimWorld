@@ -55,7 +55,7 @@
 
 		<ammunition>
 			<thingDefs>
-				<li>Steel</li>
+				<li>GW_HeavyBolterNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>

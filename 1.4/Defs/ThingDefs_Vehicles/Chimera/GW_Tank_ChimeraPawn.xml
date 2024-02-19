@@ -31,7 +31,7 @@
 		<vehicleStats>
 			<Mass>525</Mass>
 			<MoveSpeed>8.6</MoveSpeed>
-			<CargoCapacity>5500</CargoCapacity>
+			<CargoCapacity>1200</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.05</AccelerationRate>
 		</vehicleStats>
@@ -124,7 +124,7 @@
 			<li>
 				<key>LeftTrack</key>
 				<label>Left Track</label>
-				<health>200</health>
+				<health>250</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -140,7 +140,7 @@
 			<li>
 				<key>RightTrack</key>
 				<label>Right Track</label>
-				<health>200</health>
+				<health>250</health>
 				<depth>External</depth>
 				<tags>
 					<li>Wheel</li>
@@ -228,7 +228,7 @@
 			<li>
 				<key>Gearbox</key>
 				<label>Gearbox</label>
-				<health>50</health>
+				<health>100</health>
 				<depth>Internal</depth>
 				<hitbox>
 					<cells>
@@ -242,7 +242,7 @@
 			<li>
 				<key>FrontArmorPlating</key>
 				<label>Front Armor Plating</label>
-				<health>225</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>1.64</ArmorRating_Blunt>
@@ -255,7 +255,7 @@
 			<li>
 				<key>LeftArmorPlating</key>
 				<label>Left Armor Plating</label>
-				<health>215</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
@@ -268,7 +268,7 @@
 			<li>
 				<key>RightArmorPlating</key>
 				<label>Right Armor Plating</label>
-				<health>215</health>
+				<health>255</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
@@ -281,7 +281,7 @@
 			<li>
 				<key>BackArmorPlating</key>
 				<label>Rear Armor Plating</label>
-				<health>190</health>
+				<health>260</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
@@ -294,7 +294,7 @@
 			<li>
 				<key>FuelTank</key>
 				<label>Fuel Tank</label>
-				<health>150</health>
+				<health>200</health>
 				<depth>Internal</depth>
 				<reactors>
 					<li Class="Vehicles.Reactor_FuelLeak" />
@@ -328,7 +328,7 @@
 			<li>
 				<key>Roof</key>
 				<label>Roof</label>
-				<health>170</health>
+				<health>250</health>
 				<depth>External</depth>
 				<armor>
 					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
