@@ -32,7 +32,7 @@
 		</statBases>
 		<vehicleStats>
 			<Mass>1090</Mass>
-			<MoveSpeed>7.2</MoveSpeed>
+			<MoveSpeed>4.2</MoveSpeed>
 			<CargoCapacity>525</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
@@ -368,14 +368,10 @@
 			</li>
 			<li>
 				<key>Roof</key>
-				<label>Roof</label>
-				<health>370</health>
+				<label>Machine Spirit Vigor</label>
+				<health>570</health>
 				<depth>External</depth>
-				<armor>
-					<ArmorRating_Blunt>0.94</ArmorRating_Blunt>
-					<ArmorRating_Sharp>1.66</ArmorRating_Sharp>
-				</armor>
-				<hitWeight>10</hitWeight>
+				<hitWeight>20</hitWeight>
 			</li>
 		</components>
 		<comps>
@@ -398,7 +394,7 @@
 						</renderProperties>
 						<gizmoLabel>Main Turret</gizmoLabel>
 						<angleRestricted />
-						<aimPieOffset>(0, 0)</aimPieOffset>
+						<aimPieOffset>(0, 6)</aimPieOffset>
 						<drawLayer>2</drawLayer>
 						<key>Primary</key>
 					</li>
@@ -426,7 +422,7 @@
 							<west>(-1.5, 1)</west>
 						</renderProperties>
 						<gizmoLabel>Left Turret</gizmoLabel>
-						<angleRestricted>(240, 120)</angleRestricted>
+						<angleRestricted>(270, 90)</angleRestricted>
 						<aimPieOffset>(0, 0)</aimPieOffset>
 						<drawLayer>1</drawLayer>
 						<key>centersecondary</key>
@@ -454,7 +450,7 @@
 							<west>(-0.5, -3.1)</west>
 						</renderProperties>
 						<gizmoLabel>Left Turret</gizmoLabel>
-						<angleRestricted>(0, 0)</angleRestricted>
+						<angleRestricted>(180, 35)</angleRestricted>
 						<aimPieOffset>(0, 0)</aimPieOffset>
 						<drawLayer>1</drawLayer>
 						<key>leftsecondary</key>
@@ -468,7 +464,7 @@
 							<west>(-0.45, 4)</west>
 						</renderProperties>
 						<gizmoLabel>Right Turret</gizmoLabel>
-						<angleRestricted>(0, 0)</angleRestricted>
+						<angleRestricted>(325, 180)</angleRestricted>
 						<aimPieOffset>(0, 0)</aimPieOffset>
 						<drawLayer>1</drawLayer>
 						<key>rightsecondary</key>

@@ -51,18 +51,22 @@
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_Baneblade_MainTurret</projectile>
 		<reloadTimer>30.0</reloadTimer>
-		<warmUpTimer>0.0</warmUpTimer>
+		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
 		<hitFlags>IntendedTarget</hitFlags>
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>3.5</rotationSpeed>
-		<projectileOffset>4.0</projectileOffset>
+
+		<projectileOffset>9.25</projectileOffset>
+
 		<projectileShifting>
-			<li>0.5</li>
+			<li>-0.5</li>
 		</projectileShifting>
+
 		<minRange>5</minRange>
+
 		<maxRange>45.9</maxRange>
 		<recoil>
 			<distanceTotal>0.0</distanceTotal>
@@ -72,7 +76,7 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>100</shotsPerBurst>
+				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>2</ticksBetweenShots>
 				<ticksBetweenBursts>5</ticksBetweenBursts>
 				<label>Single</label>
@@ -130,12 +134,12 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>100</shotsPerBurst>
-				<ticksBetweenShots>2</ticksBetweenShots>
-				<ticksBetweenBursts>5</ticksBetweenBursts>
-				<label>Single</label>
-				<spreadRadius>7</spreadRadius>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>12</ticksBetweenShots>
+				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 		</fireModes>
 		<graphicData>
@@ -229,7 +233,8 @@
 		<rotationSpeed>3.5</rotationSpeed>
 		<projectileOffset>4.0</projectileOffset>
 		<projectileShifting>
-			<li>-0.0</li>
+			<li>-0.2</li>
+			<li>0.2</li>
 		</projectileShifting>
 		<minRange>5</minRange>
 		<maxRange>45.9</maxRange>
@@ -241,12 +246,11 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>100</shotsPerBurst>
-				<ticksBetweenShots>2</ticksBetweenShots>
-				<ticksBetweenBursts>5</ticksBetweenBursts>
-				<label>Single</label>
-				<spreadRadius>7</spreadRadius>
-				<texPath>UI/Gizmos/FireRate_Single</texPath>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>9</ticksBetweenShots>
+				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
 		</fireModes>
 		<graphicData>
@@ -344,6 +348,10 @@
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.0</rotationSpeed>
 		<projectileOffset>1.0</projectileOffset>
+		<projectileShifting>
+			<li>-0.2</li>
+			<li>0.2</li>
+		</projectileShifting>
 		<maxRange>28.9</maxRange>
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
