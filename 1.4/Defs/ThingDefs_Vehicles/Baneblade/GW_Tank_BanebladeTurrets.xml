@@ -67,7 +67,7 @@
 
 		<minRange>5</minRange>
 
-		<maxRange>45.9</maxRange>
+		<maxRange>70.9</maxRange>
 		<recoil>
 			<distanceTotal>0.0</distanceTotal>
 			<distancePerTick>0.0</distancePerTick>

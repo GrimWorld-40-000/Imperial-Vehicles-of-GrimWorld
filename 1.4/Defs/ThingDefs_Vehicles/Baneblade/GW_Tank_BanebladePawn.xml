@@ -24,10 +24,10 @@
 		<techLevel>Industrial</techLevel>
 		<vehicleType>Land</vehicleType>
 		<statBases>
-			<ArmorRating_Blunt>1.48</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.0</ArmorRating_Blunt>
+			<ArmorRating_Sharp>2.2</ArmorRating_Sharp>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Flammability>0.25</Flammability>
+			<Flammability>0</Flammability>
 			<MarketValue>14200</MarketValue>
 		</statBases>
 		<vehicleStats>
