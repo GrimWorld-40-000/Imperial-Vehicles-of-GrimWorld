@@ -223,7 +223,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BanePrimaryCannonShellNonCE</defName>
-    <label>Baneblade primary cannon shell (non CE)</label>
+    <label>Baneblade main cannon ammo (non CE)</label>
     <description>Baneblade primary cannon shell.\n\nEach shell is meticulously crafted for unparalleled destruction. The Baneblade's cannon unleashes these massive projectiles with catastrophic force, capable of obliterating enemy armor and structures on the battlefield.</description>
     <graphicData>
       <texPath>Things/Vehicles/Baneblade/MegaBC</texPath>
