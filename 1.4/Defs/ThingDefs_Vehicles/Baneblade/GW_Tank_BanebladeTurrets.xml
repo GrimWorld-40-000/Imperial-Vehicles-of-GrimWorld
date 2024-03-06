@@ -192,9 +192,9 @@
 		
 		<fireModes>
 			<li>
-				<shotsPerBurst>10</shotsPerBurst>
+				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<ticksBetweenBursts>150</ticksBetweenBursts>
 				<spreadRadius>1</spreadRadius>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
