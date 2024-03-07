@@ -35,7 +35,7 @@
 			<li>
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
-				<ticksBetweenBursts>110</ticksBetweenBursts>
+				<ticksBetweenBursts>100</ticksBetweenBursts>
 				<spreadRadius>1</spreadRadius>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>

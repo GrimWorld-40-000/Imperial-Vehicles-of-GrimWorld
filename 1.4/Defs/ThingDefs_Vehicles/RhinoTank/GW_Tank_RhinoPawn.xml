@@ -31,7 +31,7 @@
 		<vehicleStats>
 			<Mass>525</Mass>
 			<MoveSpeed>8</MoveSpeed>
-			<CargoCapacity>4500</CargoCapacity>
+			<CargoCapacity>500</CargoCapacity>
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.06</AccelerationRate>
 		</vehicleStats>
