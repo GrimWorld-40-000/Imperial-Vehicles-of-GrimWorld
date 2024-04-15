@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Chimera =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_AstartesBike_Blueprint</defName>
+		<label>Astartes Bike</label>
+		<description>The Astartes Bike in Warhammer 40,000 is a swift and heavily armored assault vehicle crucial for Space Marines. Its aerodynamic design and advanced weaponry, often a twin-linked bolter, make it a formidable force on the battlefield.\n\nDesigned for hit-and-run tactics, the bike's speed, and heavy armor allow Space Marine riders to navigate diverse terrains while delivering precise firepower. Customized with chapter-specific iconography, each bike represents the unique identity of its Space Marine chapter.\n\nAstartes Bikes play a vital role in rapid deployments, flanking maneuvers, and disrupting enemy formations. In the vast Warhammer 40,000 universe, these bikes epitomize the lethal combination of advanced technology, strategic agility, and the indomitable will of Space Marines against the Imperium of Man's myriad threats. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.8, 3.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(2, 2)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>425</Steel>
+			<HP_Ceramite>25</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>2</GW_VehicleSuspension>
+			<GW_VehicleWheel>2</GW_VehicleWheel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_AstartesBike</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

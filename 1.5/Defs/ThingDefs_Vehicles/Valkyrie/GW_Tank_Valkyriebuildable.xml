@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>Valkyriebuild</defName>
+		<label>Valkyrie</label>
+		<description>The Valkyrie Assault Carrier soars as a symbol of airborne supremacy. With a sleek and purposeful design, it embodies the airborne prowess of the Imperium in the grim 41st millennium, adorned with aerodynamic plating that reflects its unyielding service in countless sorties.\n\nTailored for rapid assault and airborne operations, the Valkyrie symbolizes aerial dominance with its streamlined and formidable aesthetic. Its robust frame facilitates swift troop deployment and close air support, making it a crucial asset in the Imperium's strategy against myriad threats in GrimWorld 40,000.\n\nNavigating turbulent skies, the Valkyrie Assault Carrier represents the Imperium's command of the aerial domain, offering unparalleled mobility and firepower in the relentless struggle against the encroaching darkness. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Valkyrie/Valkyrie</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(15,15)</drawSize>
+		</graphicData>
+		
+		<rotatable>true</rotatable>
+
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>9000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<size>(3,10)</size>
+		
+		<researchPrerequisites>
+			<li>GW_ImperialAirMilitaryVehicleResearch</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<Steel>650</Steel>
+			<HP_Ceramite>350</HP_Ceramite>
+			<GW_VehicleCannon>2</GW_VehicleCannon>
+			<GW_JetEngine>2</GW_JetEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<ComponentIndustrial>32</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>Valkyriepawn</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Chimera =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_Chimera_Blueprint</defName>
+		<label>Chimera Tank</label>
+		<description>The Astra Militarum Chimera is a robust armored vehicle in Warhammer 40,000, vital to the Imperial Guard's mechanized forces. Its boxy chassis, mounted on tracks, ensures durability on diverse terrains, and armed with a multi-laser or customizable weaponry, it provides crucial fire support.\n\nFunctioning as a troop transport, the open-topped rear swiftly shuttles Imperial Guard infantry squads for strategic deployments. Simultaneously, its formidable armament lets it engage enemy targets, contributing to the Imperial Guard's combined arms tactics.\n\nIn the grim warfare of the 41st millennium, the Chimera symbolizes the Imperium's commitment to defense against existential threats. Adorned with Imperial symbols, it stands as a potent symbol of loyalty and resilience, encapsulating the grim aesthetic of the Warhammer 40,000 universe.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/Chimera/Chimera</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(4, 4)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandMilitaryMediumVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>475</Steel>
+			<HP_Ceramite>375</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>10</GW_VehicleSuspension>
+			<GW_VehicleTracks>2</GW_VehicleTracks>
+			<GW_VehicleWheel>16</GW_VehicleWheel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_Chimera</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>
