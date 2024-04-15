@@ -1,23 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
-
   <Target Name="CopyDllPostBuild" AfterTargets="PostBuildEvent">
-      <Message Text="Copying $(ProjectName).dll to 1.4/Assemblies directory" Importance="high" />
-
-      <Copy
-        SourceFiles="$(TargetDir)$(ProjectName).dll"
-        DestinationFolder="../../1.4/Assemblies"
-        />
-
-    <Message Text="Dll copied to 1.4/Assemblies directory" Importance="high" />
+    <Message Text="Copying $(ProjectName).dll to 1.5/Assemblies directory" Importance="high"/>
+    <Message Text="Dll copied to 1.5/Assemblies directory" Importance="high"/>
+    <Copy SourceFiles="$(TargetDir)$(ProjectName).dll" DestinationFolder="../../1.5/Assemblies"/>
   </Target>
-
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3704" ExcludeAssets="runtime" />
-    <PackageReference Include="Lib.Harmony" Version="2.2.2" ExcludeAssets="runtime" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4066-beta"/>
+    <PackageReference Include="Lib.Harmony" Version="2.2.2" ExcludeAssets="runtime"/>
   </ItemGroup>
-
 </Project>

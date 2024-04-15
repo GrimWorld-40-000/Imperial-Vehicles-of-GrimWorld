@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_AstraMilitarumBike_Blueprint</defName>
+		<label>Astra Militarum Bike</label>
+		<description>The Astra Militarum Bike is a key element of the Imperial Guard's mechanized forces in Warhammer 40,000, embodying rugged reliability against vast threats. Its robust design and practical aesthetics provide versatility and mobility for Imperial Guard forces.\n\nArmed with efficient weaponry and a sturdy chassis, these bikes play a crucial role in rapid deployments and offer tactical flexibility. Whether navigating challenging terrains or engaging adversaries with precision, Astra Militarum Bikes contribute to the Imperial Guard's combined arms strategy.\n\nSymbolizing pragmatic resolve, these bikes, much like the Imperial Guard itself, feature utilitarian design and chapter-specific heraldry. This signifies the enduring strength of the Imperial Guard as the first line of defense against the countless threats in the grim darkness of the 41st millennium. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/AstraMilitarumBike/AMBike</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.8, 2.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(2, 2)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>225</Steel>
+			<HP_Ceramite>15</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>1</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>2</GW_VehicleSuspension>
+			<GW_VehicleWheel>2</GW_VehicleWheel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_AstraMilitarumBike</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>
