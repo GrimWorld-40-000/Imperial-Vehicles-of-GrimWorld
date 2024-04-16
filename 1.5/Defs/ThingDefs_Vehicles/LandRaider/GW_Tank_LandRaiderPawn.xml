@@ -69,8 +69,17 @@
 						<li>Turret</li>
 					</handlingTypes>
 					<turretIds>
-						<li>leftMountedTurret</li>
 						<li>frontMountedTurret</li>
+					</turretIds>
+				</li>
+				<li>
+					<key>gunner</key>
+					<label>Gunner</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					<handlingTypes>Turret</handlingTypes>
+					<turretIds>
+						<li>leftMountedTurret</li>
 						<li>rightMountedTurret</li>
 					</turretIds>
 				</li>
