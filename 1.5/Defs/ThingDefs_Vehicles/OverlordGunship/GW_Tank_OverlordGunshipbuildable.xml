@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>OverlordGunshipbuild</defName>
+		<label>Overlord Gunship</label>
+		<description>In the chaotic skies of GrimWorld 40,000, the Overlord Gunship emerges as a formidable aerial juggernaut. Crafted with an imposing and sleek design, this airborne behemoth symbolizes the Imperium's dominance in the grim expanse of the 41st millennium.\n\nAdorned with battle-worn plating and Gothic embellishments, the Overlord Gunship bears the scars of countless dogfights, a testament to its unyielding role in the ongoing war. Its streamlined silhouette and foreboding presence underscore its status as a symbol of Imperial might.\n\nAt its core lies an array of devastating weaponry, each component finely tuned for anti-aircraft and ground assaults. The Overlord Gunship, with its menacing firepower, is a harbinger of destruction against any who dare challenge the supremacy of the Imperium.\n\nAs it soars through the turbulent skies, the Overlord Gunship embodies the relentless spirit of the Imperium, a guardian against airborne threats and a symbol of unyielding strength in the perilous theater of GrimWorld 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x40\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/OverlordGunship/Overlord</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(25,25)</drawSize>
+		</graphicData>
+		
+		<rotatable>true</rotatable>
+
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>25000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		
+		<size>(7,23)</size>
+		
+		<researchPrerequisites>
+			<li>GW_ImperialAirMilitaryEliteVehicleResearch</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<Steel>750</Steel>
+			<HP_Ceramite>375</HP_Ceramite>
+			<HP_Adamantium>25</HP_Adamantium>
+			<GW_VehicleCannon>4</GW_VehicleCannon>
+			<GW_JetEngine>4</GW_JetEngine>
+			<GW_VehicleExhaust>4</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<ComponentIndustrial>38</ComponentIndustrial>
+			<ComponentSpacer>10</ComponentSpacer>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>OverlordGunshippawn</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

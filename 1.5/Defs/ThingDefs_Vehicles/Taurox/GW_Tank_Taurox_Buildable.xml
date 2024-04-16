@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_Taurox_blueprint</defName>
+		<label>Taurox</label>
+		<description>In the relentless conflict of GrimWorld 40,000, the Taurox APC emerges as a nimble and versatile asset. With its sleek and agile design, this armored transport embodies the adaptable might of the Imperium in the harsh expanse of the 41st millennium.\n\nAdorned with resilient plating that bears the scars of battle, the Taurox signifies both durability and efficiency in the ongoing war. Its streamlined and purposeful aesthetic reflects the practical nature demanded by the grim realities of warfare within the Imperium.\n\nTailored for rapid deployment and maneuverability, the Taurox is a symbol of battlefield agility. Its robust chassis enables swift troop transport and hit-and-run tactics, providing the Imperium with a dynamic and responsive asset against evolving threats.\n\nAs it navigates the war-torn landscape, the Taurox stands as a symbol of the Imperium's ability to swiftly adapt, offering a mobile and resilient solution in the relentless struggle of GrimWorld 40,000. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Taurox/Taurox</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7, 7)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<size>(3, 5)</size>
+		
+		<researchPrerequisites>
+			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<Steel>475</Steel>
+			<HP_Ceramite>400</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSuspension>12</GW_VehicleSuspension>
+			<GW_VehicleTracks>4</GW_VehicleTracks>
+			<GW_VehicleWheel>12</GW_VehicleWheel>
+			<ComponentIndustrial>24</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>GW_Taurox</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>
