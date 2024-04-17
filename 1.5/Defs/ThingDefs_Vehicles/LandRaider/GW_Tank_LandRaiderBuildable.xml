@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Leman Russ =====-->
+
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_LandRaider_Blueprint</defName>
+		<label>Land Raider</label>
+		<description>The Land Raider is a formidable armored transport vehicle, renowned for its versatility and durability on the battlefield. With its rugged design and heavy armor plating, it serves as both a troop transport and a mobile fortress, capable of delivering squads of Space Marines directly into the heart of combat zones while providing fire support with its potent array of weaponry. Its iconic silhouette strikes fear into the hearts of enemies as it advances relentlessly, embodying the indomitable power of the Imperium of Man. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x8\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/LandRaider/LandRaider</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(12, 12)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(9, 11)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandMilitaryEliteVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>1200</Steel>
+			<HP_Ceramite>850</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>3</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>20</GW_VehicleSuspension>
+			<GW_VehicleTracks>2</GW_VehicleTracks>
+			<GW_VehicleWheel>16</GW_VehicleWheel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<ComponentSpacer>8</ComponentSpacer>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_LandRaider</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

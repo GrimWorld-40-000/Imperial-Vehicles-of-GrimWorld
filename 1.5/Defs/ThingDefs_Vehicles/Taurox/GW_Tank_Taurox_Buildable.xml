@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_Taurox_blueprint</defName>
+		<label>Taurox</label>
+		<description>In the conflict of GrimWorld 40,000, the Taurox APC embodies the adaptable might of the Imperium. Adorned with resilient plating, it offers durability and efficiency in battle. Tailored for rapid deployment and maneuverability, it enables swift troop transport and hit-and-run tactics, symbolizing the Imperium's ability to swiftly adapt in the struggle of GrimWorld 40,000. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Taurox/Taurox</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7, 7)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		
+		<size>(3, 5)</size>
+		
+		<researchPrerequisites>
+			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<Steel>475</Steel>
+			<HP_Ceramite>400</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSuspension>12</GW_VehicleSuspension>
+			<GW_VehicleTracks>4</GW_VehicleTracks>
+			<GW_VehicleWheel>12</GW_VehicleWheel>
+			<ComponentIndustrial>24</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		
+		<thingToSpawn>GW_Taurox</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

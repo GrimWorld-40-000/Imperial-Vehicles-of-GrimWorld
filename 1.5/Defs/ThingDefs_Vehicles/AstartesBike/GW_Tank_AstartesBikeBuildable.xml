@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Chimera =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_AstartesBike_Blueprint</defName>
+		<label>Astartes Bike</label>
+		<description>In Warhammer 40,000, the Astartes Bike is a swift, heavily armored assault vehicle armed with advanced weaponry. It excels at hit-and-run tactics and plays key roles in rapid deployments, flanking maneuvers, and disrupting enemy formations. Each bike bears chapter-specific iconography, representing its Space Marine chapter's identity. It symbolizes advanced technology, strategic agility, and the indomitable will of the Space Marines in the grim universe of Warhammer 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.8, 3.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(2, 2)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>425</Steel>
+			<HP_Ceramite>25</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>2</GW_VehicleSuspension>
+			<GW_VehicleWheel>2</GW_VehicleWheel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_AstartesBike</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

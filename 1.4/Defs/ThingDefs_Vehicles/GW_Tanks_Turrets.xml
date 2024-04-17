@@ -44,7 +44,7 @@
 		<defName>Bullet_HeavyBolter</defName>
 		<label>Heavy Bolter bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>

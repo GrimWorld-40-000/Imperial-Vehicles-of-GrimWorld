@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Rhino =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_Rhino_Blueprint</defName>
+		<label>Rhino Tank</label>
+		<description>In the grim battleground of GrimWorld 40,000, the Rhino Transport embodies the practical might of the Imperium. Clad in weathered plating adorned with Imperial iconography, it ensures safe troop deployment, symbolizing battlefield logistics. As it traverses war-scarred terrain, the Rhino stands as a steadfast symbol of the Imperium's resilience in fulfilling its crucial role in the Emperor's grand strategy. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/RhinoTank/RhinoTank</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(5, 5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(4, 4)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandMilitaryLightVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>450</Steel>
+			<HP_Ceramite>425</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>10</GW_VehicleSuspension>
+			<GW_VehicleTracks>2</GW_VehicleTracks>
+			<GW_VehicleWheel>16</GW_VehicleWheel>
+			<ComponentIndustrial>24</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_Rhino</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

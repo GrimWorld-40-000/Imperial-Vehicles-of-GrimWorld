@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_DropPod_Blueprint</defName>
+		<label>Drop Pod</label>
+		<description>In GrimWorld 40,000, the Astartes Drop Pod is a symbol of rapid deployment. It's utilitarian in design, with battle scars and chapter-specific icons. Hinged doors guard stasis racks for Astartes weaponry. Upon touchdown, it delivers Space Marines directly into battle, embodying the relentless nature of the Imperium's fight against darkness. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/DropPod/DropPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8, 8)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		
+	<rotatable>false</rotatable>
+	<statBases>
+		<MaxHitPoints>500</MaxHitPoints>
+		<WorkToBuild>12000</WorkToBuild>
+		<Flammability>0</Flammability>
+	</statBases>
+	
+	<size>(7, 7)</size>
+	
+	<researchPrerequisites>
+		<li>GW_ImperialAirVehicleResearch</li>
+	</researchPrerequisites>
+	
+	<costList>
+			<Steel>750</Steel>
+			<HP_Ceramite>375</HP_Ceramite>
+			<HP_Adamantium>25</HP_Adamantium>
+			<GW_JetEngine>1</GW_JetEngine>
+			<GW_VehicleExhaust>5</GW_VehicleExhaust>
+			<ComponentIndustrial>26</ComponentIndustrial>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_DropPod</thingToSpawn>
+		
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

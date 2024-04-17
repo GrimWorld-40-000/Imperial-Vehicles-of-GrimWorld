@@ -12,8 +12,8 @@
 		<prerequisites>
 			<li>Fabrication</li>
 		</prerequisites>
+		<researchViewX>12.00</researchViewX>
 		<researchViewX>11.00</researchViewX>
-		<researchViewY>0.50</researchViewY>
 	</ResearchProjectDef>
 
 	<!--All vehicle researches are given a tier to make it easier to update and add on to. If desired, a tier can be completely skipped(i.e. have a Basic vehicles(1) and an Ultimate vehicles(3))-->
@@ -23,12 +23,12 @@
 		<prerequisites>
 			<li>GW_VehiclesOfGrimworld</li>
 		</prerequisites>
-		<researchViewX>12.00</researchViewX>
+		<researchViewX>13.00</researchViewX>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier2LandTransportVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>11000</baseCost>
-		<researchViewX>13.00</researchViewX>
+		<researchViewX>14.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -44,12 +44,12 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier2LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>5000</baseCost>
-		<researchViewX>13.00</researchViewX>
+		<researchViewX>14.00</researchViewX>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier3LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>6000</baseCost>
-		<researchViewX>14.00</researchViewX>
+		<researchViewX>15.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -65,7 +65,7 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier4LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>6000</baseCost>
-		<researchViewX>15.00</researchViewX>
+		<researchViewX>16.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -81,7 +81,7 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier5LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>7500</baseCost>
-		<researchViewX>16.00</researchViewX>
+		<researchViewX>17.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -97,7 +97,7 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier1AirVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>6000</baseCost>
-		<researchViewX>14.00</researchViewX>
+		<researchViewX>15.00</researchViewX>
 		<prerequisites>
 			<li>GW_VehiclesOfGrimworld</li>
 			<li>TransportPod</li>
@@ -106,7 +106,7 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier2AirMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>7000</baseCost>
-		<researchViewX>15.00</researchViewX>
+		<researchViewX>16.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -122,7 +122,7 @@
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier3AirMilitaryVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>8500</baseCost>
-		<researchViewX>16.00</researchViewX>
+		<researchViewX>17.00</researchViewX>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
