@@ -9,6 +9,7 @@
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>2</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bomb</damageDef>
