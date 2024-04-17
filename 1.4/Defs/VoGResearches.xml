@@ -13,7 +13,7 @@
 			<li>Fabrication</li>
 		</prerequisites>
 		<researchViewX>12.00</researchViewX>
-		<researchViewY>0.50</researchViewY>
+		<researchViewX>11.00</researchViewX>
 	</ResearchProjectDef>
 
 	<!--All vehicle researches are given a tier to make it easier to update and add on to. If desired, a tier can be completely skipped(i.e. have a Basic vehicles(1) and an Ultimate vehicles(3))-->

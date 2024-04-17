@@ -111,7 +111,7 @@ namespace Vehicles_of_Grimworld
             }
         }
 
-        public sealed override void Draw()
+        protected sealed override void DrawAt(Vector3 pos, bool y)
         {
             float offset;
             switch (_doorState)
