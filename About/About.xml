@@ -3,7 +3,7 @@
 <ModMetaData>
 	<packageId>Grimworld.Vehicles</packageId>
 	<name>GrimWorld 40,000 - Imperial Vehicles of Grimworld</name>
-	<author>Clashgore, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Shun The Witch, Samael, Con</author>
+	<author>Clashgore, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Shun The Witch, Samael, Con</author>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/ImperialVehiclesofGrimWorldModIcon</modIconPath>
 	<supportedVersions>
 		<li>1.4</li>
@@ -34,9 +34,16 @@ The armed forces of the Imperium include, but are not limited to, the Space Mari
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404</steamWorkshopUrl>
 		</li>
 		<li>
+          <packageId>Grimworld.Framework</packageId>
+          <displayName>GrimWorld 40,000 - Framework</displayName>
+          <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=3119805903</steamWorkshopUrl> 
+          <downloadUrl>https://github.com/GrimWorld-40-000/GrimWorld-Framework</downloadUrl>
+		</li>
+		<li>
 			<packageId>Grimworld.Core</packageId>
 			<displayName>Grimworld 40,000 - Core Imperialis</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3018671708</steamWorkshopUrl>
+			<downloadUrl>https://github.com/GrimWorld-40-000/Core-Imperialis</downloadUrl>
 		  </li>
 	</modDependencies>
 </ModMetaData>
