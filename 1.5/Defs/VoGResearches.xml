@@ -94,6 +94,22 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef Abstract="True" Name="GW_Tier6LandMilitaryVehicleResearch" ParentName="GW_VoGBase">
+		<baseCost>9000</baseCost>
+		<researchViewX>18.00</researchViewX>
+		<modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>5</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
 
 	<ResearchProjectDef Abstract="True" Name="GW_Tier1AirVehicleResearch" ParentName="GW_VoGBase">
 		<baseCost>6000</baseCost>
@@ -180,6 +196,16 @@
 		<description>Elite land military vehicles used by the Imperium of Man. Core of Imperial military vehicles, like the Predator, from Warhammer 40,000 universe.</description>
 		<prerequisites>
 			<li>GW_ImperialLandMilitaryHeavyVehicleResearch</li>
+		</prerequisites>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_Tier6LandMilitaryVehicleResearch">
+		<defName>GW_ImperialLandMilitaryTitanicVehicleResearch</defName>
+		<label>Imperial titanic tanks</label>
+		<description>Titanic land military vehicles used by the Imperium of Man. From "father of all baneblades" Stormhammer and Guilliman`s personal carrier Astraeus those mightiest and biggest tanks in Imperium armada.</description>
+		<prerequisites>
+			<li>GW_ImperialLandMilitaryEliteVehicleResearch</li>
 		</prerequisites>
 		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
