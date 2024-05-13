@@ -25,7 +25,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Baneblade</defName>
 		<label>Baneblade</label>
-		<description>The Baneblade, a colossal super-heavy tank, embodies Imperial might with unmatched firepower. Armed with a devastating Baneblade Cannon, it obliterates enemies with ease. Its reinforced armor and towering chassis make it near-impenetrable, shrugging off attacks while delivering devastation. As a symbol of Imperial resolve, the Baneblade strikes fear into all who oppose the Emperor. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Baneblade, a colossal super-heavy tank, embodies Imperial might with unmatched firepower. Armed with a devastating Baneblade Cannon, it obliterates enemies with ease. Its reinforced armor and towering chassis make it near-impenetrable, shrugging off attacks while delivering devastation. As a symbol of Imperial resolve, the Baneblade strikes fear into all who oppose the Emperor. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Baneblade/Baneblade</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
@@ -396,7 +396,7 @@
 		</components>
 		<comps>
 			<li Class="Vehicles.CompProperties_FueledTravel">
-				<fuelType>Chemfuel</fuelType>
+				<fuelType>Uranium</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
 				<fuelConsumptionRate>34</fuelConsumptionRate>
 				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>

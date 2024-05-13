@@ -226,7 +226,7 @@
 		
 		<comps>	
 			<li Class="Vehicles.CompProperties_FueledTravel">
-				<fuelType>Chemfuel</fuelType>
+				<fuelType>Uranium</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
 				<fuelConsumptionRate>26.5</fuelConsumptionRate>
 				<fuelCapacity>400</fuelCapacity>

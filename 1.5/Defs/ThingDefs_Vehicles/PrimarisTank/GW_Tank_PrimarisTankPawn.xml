@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_SpiteTank</defName>
 		<label>Astraeus</label>
-		<description>The Astraeus, formally the Astraeus Super-Heavy Tank, is a massive, super-heavy grav-tank utilised exclusively by the Primaris Space Marines. Just as these new transhuman warriors represent the pinnacle of the Adeptus Astartes' capabilities, the Astraeus super-heavy tank embodies the apex of Imperial engineering, a devastating war machine that serves as the perfect accompaniment for any Primaris Astartes force. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>The Astraeus, formally the Astraeus Super-Heavy Tank, is a massive, super-heavy grav-tank utilised exclusively by the Primaris Space Marines. Just as these new transhuman warriors represent the pinnacle of the Adeptus Astartes' capabilities, the Astraeus super-heavy tank embodies the apex of Imperial engineering, a devastating war machine that serves as the perfect accompaniment for any Primaris Astartes force. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
 		<graphicData>
 			<texPath>Things/Vehicles/PrimarisTank/Astraeus</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
@@ -288,7 +288,7 @@
 		</components>
 		<comps>
 			<li Class="Vehicles.CompProperties_FueledTravel">
-				<fuelType>Chemfuel</fuelType>
+				<fuelType>Uranium</fuelType>
 				<leakDef>Filth_Fuel</leakDef>
 				<fuelConsumptionRate>34</fuelConsumptionRate>
 				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
