@@ -3,7 +3,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_HeavyBolterNonCE</defName>
     <label>0.998cal Heavy bolter ammo (non CE)</label>
-    <description>Heavy Bolter ammunition.\n\nThis ammo type features an enlarged caliber and dark, durable casings for maximum impact.</description>
+    <description>High-caliber rounds of self-propelling, armor-piercing, high-explosive ammunition, used in Imperial heavy bolters. While generally used to chew up enemy infantry of all kinds, it can also put a significant dent in lightly-armored vehicles.</description>
     <graphicData>
       <texPath>Things/Ammo/HeavyBolter1.0CAL</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -46,7 +46,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_AutocannonammoNonCE</defName>
     <label>0.787cal autocannon ammo (non CE)</label>
-    <description>Autocannon ammunition.\n\nAutocannon ammo is crafted with precision, each round features an enlarged caliber and robust, dark casings.</description>
+    <description>20mm high-explosive ammunition used in autocannons mounted on Imperial vehicles. Autocannons are relatively fast-firing weapons - not as potent as a lascannon, but still heavy-hitting, and able to lay down a healthy volume of fire.</description>
     <graphicData>
       <texPath>Things/Ammo/AutoCannon</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -90,7 +90,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BattleCannonShellNonCE</defName>
     <label>120mm battle cannon shell (non CE)</label>
-    <description>Battle cannon ammunition.\n\nThis type of ammo is a devastating artillery piece with a sleek and menacing design. Crafted for maximum impact, this heavy cannon unleashes powerful explosive rounds, capable of decimating enemy forces and fortifications on the battlefield.</description>
+    <description>A 120mm shell suitable for the Battle Cannon of a Leman Russ battle tank. It is essentially the lasgun of vehicle combat - not the most powerful, but always reliable, and even the strongest vehicles are wary of them in large numbers.</description>
     <graphicData>
       <texPath>Things/Ammo/BattleCannon</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -135,7 +135,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_LascannonammoNonCE</defName>
     <label>Lascannon battery pack (non CE)</label>
-    <description>Lascannon ammunition.\n\nThis ammunition is a potent battery pack designed for the formidable Lascannon.The Lascannon unleashes these powerful energy projectiles with precision, capable of piercing through heavy armor and dealing significant damage to high-value targets on the battlefield.</description>
+    <description>A large power pack to charge a lascannon. These contain enough energy to penetrate the armor of a light vehicle or split the skull of a Space Marine Terminator.</description>
     <graphicData>
       <texPath>Things/Ammo/Lascannons/LascannonAmmunition</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -179,7 +179,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_HeavyPlasmaNonCE</defName>
     <label>Plasmacannon cartridges (non CE)</label>
-    <description>Plasmacannon ammunition.\n\nWith a sleek, heat resistant cartridges design each round is crafted for controlled energy release. Those are much bigger cartridges than for standard infantry version of plasma weapons.</description>
+    <description>A cartridge of hydrogen fuel used in vehicle-mounted Imperial plasma weapons. Armor and flesh stands little chance against the sheer unmitigated power of a sun.</description>
     <graphicData>
       <texPath>Things/Ammo/PlasmaGun</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -224,7 +224,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BanePrimaryCannonShellNonCE</defName>
     <label>250mm battle cannon ammo (non CE)</label>
-    <description>Baneblade primary cannon shell.\n\nEach shell is meticulously crafted for unparalleled destruction. The Baneblade's cannon unleashes these massive projectiles with catastrophic force, capable of obliterating enemy armor and structures on the battlefield.</description>
+    <description>A very large 250mm rocket-assisted, fin-stabilized shell used in Baneblade Cannons. Not only can these shells quickly reduce an enemy vehicle to scrap metal, but a tight cluster of infantry can be made to wish they were never born.</description>
     <graphicData>
       <texPath>Things/Vehicles/Baneblade/MegaBC</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -271,7 +271,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>GW_BaneDemolisherCannonShellNonCE</defName>
     <label>380mm demolisher cannon shell (non CE)</label>
-    <description>Demolisher cannon shell.\n\nThe Demolisher Cannon unleashes these massive projectiles with catastrophic force, capable of obliterating enemy fortifications and densely packed targets on the battlefield.</description>
+    <description>A titanic 380mm rocket-assisted shell used in Demolisher Cannons. Fairly short-ranged, but a solid hit from one of these can destroy almost any target, be they building or vehicle or infantry.</description>
     <graphicData>
 	<texPath>Things/Vehicles/Baneblade/Demolisher</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
