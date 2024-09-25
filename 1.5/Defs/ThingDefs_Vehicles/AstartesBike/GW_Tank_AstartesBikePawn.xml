@@ -23,7 +23,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_AstartesBike</defName>
 		<label>Astartes Bike</label>
-		<description>In Warhammer 40,000, the Astartes Bike is a swift, heavily armored assault vehicle armed with advanced weaponry. It excels at hit-and-run tactics and plays key roles in rapid deployments, flanking maneuvers, and disrupting enemy formations. Each bike bears chapter-specific iconography, representing its Space Marine chapter's identity. It symbolizes advanced technology, strategic agility, and the indomitable will of the Space Marines in the grim universe of Warhammer 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>An Astartes Bike, also known as an Assault Bike, is a two-wheeled fast-attack motorcycle equipped with a heavy bolter on the front. Such bikes are used by Space Marine Bike Squads to quickly strike at an enemy formation, whittling down some and sowing disorder in the rest, then retreat before an effective response can be made. \n\nAstartes Bikes are heavily associated with the White Scars chapter of Space Marines, where Bike Squads make up the majority of their offensive force. Rarely will they stand and fight head-to-head, preferring to bleed their enemies dry for every inch they march. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 
 		<graphicData>
 			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
