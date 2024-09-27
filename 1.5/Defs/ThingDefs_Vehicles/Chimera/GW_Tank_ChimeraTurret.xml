@@ -6,7 +6,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Chimera_HeavyBolter</defName>
 		<label>Chimera Heavy Bolter</label>
-		<description>The Heavy Bolter, a formidable weapon in the Warhammer 40,000 universe, is often mounted on vehicles to enhance their firepower. This versatile weapon, characterized by its rapid and powerful firepower, serves as a potent anti-infantry and suppressive tool on the battlefield. When mounted on a vehicle, it becomes a symbol of mobile and devastating firepower, capable of mowing down enemy infantry and providing valuable support in diverse combat scenarios.</description>
+		<description>A turret-mounted twin-linked heavy bolter used on the Chimera. Fires 0.998 cal bolts.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_Autocannon</shotSound>
 		<projectile>Bullet_HeavyBolter</projectile>
