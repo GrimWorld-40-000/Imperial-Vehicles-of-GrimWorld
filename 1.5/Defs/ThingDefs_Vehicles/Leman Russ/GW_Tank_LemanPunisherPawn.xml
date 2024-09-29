@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_LemanRussPunisher</defName>
 		<label>Leman Russ Punisher</label>
-		<description>The Punisher Leman Russ, an armored juggernaut of the Imperial Guard, wields the punishing Punisher Gatling Cannon, unleashing torrents of firepower to decimate enemy ranks. With its robust frame and heavy armor, it withstands enemy assaults while delivering relentless barrages, embodying the Emperor's relentless determination for victory. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>An anti-infantry variant of the Leman Russ tank. This design swaps the 120mm Battle Cannon for a Punisher Gatling Cannon, a rapid-fire rotary cannon firing explosive rounds. While it is less effective against enemy armor than the standard model, it can easily shred massed infantry in a storm of explosions. \n\nSpace Marines may be regarded as Angels of Death, but many such angels have met their end under the treads of a tank. Additionally insulting is the fact that gene-seed is exceedingly difficult to extract from the Progenoid Gland of a crushed and mangled corpse. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
