@@ -4,7 +4,7 @@
 <Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Chimera</defName>
 		<label>Chimera</label>
-		<description>The Astra Militarum Chimera in Warhammer 40,000 is a vital armored vehicle for the Imperial Guard, with a durable chassis and armed with weaponry like the multi-laser. It acts as both a troop transport and fire support, swiftly moving infantry squads while engaging enemy targets. Adorned with Imperial symbols, it embodies the grim aesthetic of Warhammer 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>An infantry fighting vehicle used by the Imperial Guard. It is able to transport twelve soldiers into battle, then cover them with a twin-linked heavy bolter on top and a heavy bolter mounted to the turret. \n\nGuardsmen carried by a Chimera are sometimes referred to as an “Armored Fist” squad. The Armageddon Steel Legion are a regiment of such squads, riding into battle inside their Chimeras and then deploying under fire to overwhelm the shattered defenders. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Chimera/Chimera</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
