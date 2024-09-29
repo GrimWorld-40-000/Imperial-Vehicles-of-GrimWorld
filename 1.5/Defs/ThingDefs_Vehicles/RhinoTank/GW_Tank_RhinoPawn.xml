@@ -4,7 +4,7 @@
 <Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Rhino</defName>
 		<label>Rhino</label>
-		<description>In the grim battleground of GrimWorld 40,000, the Rhino Transport embodies the practical might of the Imperium. Clad in weathered plating adorned with Imperial iconography, it ensures safe troop deployment, symbolizing battlefield logistics. As it traverses war-scarred terrain, the Rhino stands as a steadfast symbol of the Imperium's resilience in fulfilling its crucial role in the Emperor's grand strategy. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>An armored personnel carrier used by the Adeptus Astartes, as well as other elite Imperial forces. Its ten passengers are covered by a Storm Bolter mounted on top of the vehicle. \n\nThe Rhino dates back all the way to the Dark Age of Technology, where it was used to explore newly-colonized planets and transport troops into combat. When an STC fragment for it was recovered, it was quickly adopted by the Imperium of Man. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x10\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/RhinoTank/RhinoTank</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
