@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_Predator</defName>
 		<label>Predator</label>
-		<description>In GrimWorld 40,000, the Predator Tank is a relentless war machine symbolizing the Imperium's might. Clad in scarred plating adorned with Imperial symbols, it reflects unwavering commitment to the Emperor's cause. With lethal weaponry, it defends the Imperium's dominion against armored targets and infantry, embodying the Imperium's relentless spirit in the tumultuous 41st millennium. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>A variant on the Rhino, the Predator battle tank is a vehicle of the Adeptus Astartes, providing a balance between firepower, speed, and expense. This design is armed with a high-explosive autocannon - with only a small blast radius but a good rate of fire - as well as two heavy bolters on each side. \n\nThe Predator tank also dates back to the Dark Age of Technology, when humanity first encountered Orks. As the ancient humans required more firepower, they upgraded the armor and weapons of the Rhino, creating the first Predators. The autocannon could reliably penetrate Ork vehicle armor, and the Predator’s own armor could stand up to most Ork weaponry. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/Predator/Predator</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>

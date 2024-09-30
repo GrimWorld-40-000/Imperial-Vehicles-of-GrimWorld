@@ -6,7 +6,7 @@
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>GW_LemanRussExecutioner</defName>
 		<label>Leman Russ Executioner</label>
-		<description>The Executioner Leman Russ, a fearsome variant of the Imperial Guard's tank, wields a Plasma Destroyer cannon, specializing in annihilating heavily armored targets. Its rugged design and heavy armor make it a stalwart presence on the battlefield, delivering decisive strikes while enduring enemy fire. As a symbol of Imperial resolve, it embodies the Guard's determination to conquer all adversaries. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>A variant of the Leman Russ tank, this armored vehicle trades the standard 120mm Battle Cannon for a Plasma Destroyer, a large plasma cannon. Even heavy and super-heavy tanks fear the star-fire that the Executioner brings to bear, and no infantry armor can hope to withstand it. \n\nLeman Russ battle tanks may not be the greatest tank design around - indeed, a tank design from a glitterworld could stand a very good chance of destroying it. However, its true strength lies in its ruggedness, simplicity, and ease of manufacture and use, like so much else in the Imperial Guard. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
 			<texPath>Things/Vehicles/LemanRuss/LemanRuss</texPath>
 			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
