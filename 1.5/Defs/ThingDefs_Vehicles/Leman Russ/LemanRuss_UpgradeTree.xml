@@ -47,7 +47,7 @@
 				<key>PunisherUpgrade</key>
 				<label>Punisher</label>
 				<description>WIP</description>
-				<icon>Things/Vehicles/LemanRuss/LemanRussExecutioner_Cannon</icon>
+				<icon>Things/Vehicles/LemanRuss/LemanRussPunisherCannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 10)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
