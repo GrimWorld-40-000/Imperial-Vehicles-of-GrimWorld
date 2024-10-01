@@ -89,7 +89,7 @@
 				<key>DestructorUpgrade</key>
 				<label>Destructor</label>
 				<description>WIP</description>
-				<icon>Things/Vehicles/Predator/Predator_CannonTop</icon>
+				<icon>Things/Vehicles/Predator/Predator_Cannontop_Cannon</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 15)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
