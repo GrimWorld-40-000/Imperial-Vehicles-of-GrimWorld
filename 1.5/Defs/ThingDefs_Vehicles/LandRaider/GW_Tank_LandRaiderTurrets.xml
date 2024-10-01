@@ -5,19 +5,14 @@
 		<defName>GW_LandRaider_Lasgun</defName>
 		<label>lasgun</label>
 		<description>A twinlinked Lascannon, faster than singles, but suffers from worse overheating.</description>
-		
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
-		
 		<projectile>GW_Valkyrielas</projectile>
 		<reloadTimer>3.5</reloadTimer>
 		<warmUpTimer>0.4</warmUpTimer>
-		
 		<magazineCapacity>60</magazineCapacity>
 		<genericAmmo>true</genericAmmo>
-		
 		<hitFlags>IntendedTarget</hitFlags>
-		
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.95</rotationSpeed>
 			<projectileShifting>
@@ -25,12 +20,8 @@
 			<li>0.2</li>
 		</projectileShifting>
 		<projectileOffset>0</projectileOffset>
-		
 		<minRange>1</minRange>
 		<maxRange>42.9</maxRange>
-		
-		
-		
 		<fireModes>
 			<li>
 				<shotsPerBurst>1</shotsPerBurst>
@@ -41,7 +32,6 @@
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 		</fireModes>
-
 		<graphicData>
 			<texPath>Things/Vehicles/LandRaider/SideTurret_Lasgun</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
@@ -49,16 +39,13 @@
 			<drawSize>(4.5, 4.5)</drawSize>
 			<layer>3</layer>
 		</graphicData>
-		
 		<ammunition>
 			<thingDefs>
 				<li>GW_LascannonammoNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
-
-
-
+	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LandRaider_twinbolter</defName>
 		<label>Twin Heavy Bolter</label>
@@ -83,9 +70,10 @@
 		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
 		<fireModes>
 			<li>
-				<shotsPerBurst>5</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
-				<ticksBetweenBursts>90</ticksBetweenBursts>
+				<shotsPerBurst>10</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<spreadRadius>2</spreadRadius>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
@@ -103,12 +91,5 @@
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
-
-
-
-
-
-
-
 
 </Defs>

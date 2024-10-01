@@ -25,7 +25,7 @@
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_LemanRussPunisher_MainTurret</defName>
 		<label>Leman Russ main cannon</label>
-		<description>A turret-mounted Punisher Gatling Cannon, a rapid-fire rotary cannon used as the main weapon of the Leman Russ Punisher. Fires 0.787 cal autocannon rounds.</description>
+		<description>The Lemann Russ Main Battle Cannon, a formidable weapon in the war-torn landscape of GrimWorld 40,000, is mounted on a heavily armored vehicle. The cannon boasts a rugged design with reinforced plating, reflecting the harsh aesthetic of the 41st millennium.\n\nPositioned on the vehicle's chassis, the cannon is a symbol of raw, devastating firepower. Its sleek barrel and menacing presence underscore its role as a primary anti-armor and anti-infantry weapon. Adorned with Imperial symbols, it signifies the might of the Imperium in the relentless battle against myriad threats.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
 		<projectile>Bullet_LemanRussPunisher_MainTurret</projectile>
@@ -55,7 +55,7 @@
 				<ticksBetweenShots>2</ticksBetweenShots>
 				<ticksBetweenBursts>5</ticksBetweenBursts>
 				<label>Single</label>
-				<spreadRadius>7</spreadRadius>
+				<spreadRadius>6</spreadRadius>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 		</fireModes>

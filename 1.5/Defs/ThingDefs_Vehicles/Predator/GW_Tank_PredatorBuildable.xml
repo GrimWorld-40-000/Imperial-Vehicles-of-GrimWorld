@@ -22,17 +22,16 @@
 			<li>GW_ImperialLandMilitaryHeavyVehicleResearch</li>
 		</researchPrerequisites>
 		<costList>
-			<Steel>650</Steel>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>15</HP_Adamantium>
-			<GW_VehicleCannon>1</GW_VehicleCannon>
+			<Steel>550</Steel>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>10</HP_Adamantium>
 			<GW_VehicleEngine>1</GW_VehicleEngine>
 			<GW_VehicleExhaust>2</GW_VehicleExhaust>
 			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
 			<GW_VehicleSuspension>14</GW_VehicleSuspension>
 			<GW_VehicleTracks>2</GW_VehicleTracks>
 			<GW_VehicleWheel>22</GW_VehicleWheel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<ComponentIndustrial>16</ComponentIndustrial>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<thingToSpawn>GW_Predator</thingToSpawn>

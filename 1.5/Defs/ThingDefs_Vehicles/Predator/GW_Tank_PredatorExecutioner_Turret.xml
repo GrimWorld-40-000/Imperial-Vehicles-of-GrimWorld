@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_LemanRussExecutioner_MainTurret</defName>
+		<defName>Bullet_PredatorExecutioner_MainTurret</defName>
 		<label>high-explosive shell</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
@@ -25,12 +25,12 @@
 	</ThingDef>
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>GW_LemanRussExecutioner_MainTurret</defName>
-		<label>Leman Russ main cannon</label>
-		<description>The Lemann Russ Main Battle Cannon, a formidable weapon in the war-torn landscape of GrimWorld 40,000, is mounted on a heavily armored vehicle. The cannon boasts a rugged design with reinforced plating, reflecting the harsh aesthetic of the 41st millennium.\n\nPositioned on the vehicle's chassis, the cannon is a symbol of raw, devastating firepower. Its sleek barrel and menacing presence underscore its role as a primary anti-armor and anti-infantry weapon. Adorned with Imperial symbols, it signifies the might of the Imperium in the relentless battle against myriad threats.</description>
+		<defName>GW_PredatorExecutioner_MainTurret</defName>
+		<label>Predator main cannon</label>
+		<description>WIP</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
-		<projectile>Bullet_LemanRussExecutioner_MainTurret</projectile>
+		<projectile>Bullet_PredatorExecutioner_MainTurret</projectile>
 		<reloadTimer>12.0</reloadTimer>
 		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>6</magazineCapacity>
@@ -61,7 +61,7 @@
 			</li>
 		</fireModes>
 		<graphicData>
-			<texPath>Things/Vehicles/LemanRuss/LemanRussExecutioner_Cannon</texPath>
+			<texPath>Things/Vehicles/Predator/Predator_Cannontop_Plasma</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(6, 6)</drawSize>

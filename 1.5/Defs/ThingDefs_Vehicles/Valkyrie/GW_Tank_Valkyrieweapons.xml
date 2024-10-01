@@ -36,7 +36,7 @@
         <causefireChance>0.08</causefireChance>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>170</damageAmountBase>
+            <damageAmountBase>100</damageAmountBase>
             <armorPenetrationBase>1</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
         </projectile>
@@ -74,7 +74,7 @@
 		
 		<fireModes>
 			<li>
-				<shotsPerBurst>5</shotsPerBurst>
+				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>

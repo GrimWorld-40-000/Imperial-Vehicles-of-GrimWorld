@@ -22,9 +22,8 @@
 			<li>GW_ImperialLandMilitaryHeavyVehicleResearch</li>
 		</researchPrerequisites>
 		<costList>
-			<Steel>500</Steel>
-			<HP_Ceramite>450</HP_Ceramite>
-			<GW_VehicleCannon>1</GW_VehicleCannon>
+			<Steel>400</Steel>
+			<HP_Ceramite>350</HP_Ceramite>
 			<GW_VehicleEngine>1</GW_VehicleEngine>
 			<GW_VehicleExhaust>2</GW_VehicleExhaust>
 			<GW_VehicleSideTurret>3</GW_VehicleSideTurret>

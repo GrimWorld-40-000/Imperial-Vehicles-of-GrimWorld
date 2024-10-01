@@ -37,7 +37,6 @@
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
-		
 		<soundSustainersOnEvent>
 			<li>
 				<start>IgnitionOn</start>
@@ -45,7 +44,6 @@
 				<value>GW_VoG_HeavySound</value>
 			</li>
 		</soundSustainersOnEvent>
-		
 		<race>
 			<baseBodySize>4.0</baseBodySize>
 		</race>
@@ -356,21 +354,11 @@
 				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
 				<fuelCapacity>130</fuelCapacity>
 			</li>
+		    <li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_Lemanruss_UpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
-					<li>
-						<turretDef>GW_LemanRuss_MainTurret</turretDef>
-						<renderProperties>
-							<north>(0, 0.1)</north>
-							<south>(0, -0.1)</south>
-							<east>(0.1, 0.1)</east>
-						</renderProperties>
-						<gizmoLabel>Main Turret</gizmoLabel>
-						<angleRestricted />
-						<aimPieOffset>(0, 1.75)</aimPieOffset>
-						<drawLayer>2</drawLayer>
-						<key>mainTurret</key>
-					</li>
 					<li>
 						<turretDef>GW_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
