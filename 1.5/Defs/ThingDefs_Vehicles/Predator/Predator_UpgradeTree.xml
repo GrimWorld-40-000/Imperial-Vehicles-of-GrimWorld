@@ -129,7 +129,7 @@
 				<key>AnihilatorUpgrade</key>
 				<label>Anihilator</label>
 				<description>WIP</description>
-				<icon>Things/Vehicles/Predator/Predator_CannonTop</icon>
+				<icon>Things/Vehicles/Predator/Predator_LasCannonTop</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 20)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
