@@ -114,7 +114,7 @@
 		<reloadTimer>8.4</reloadTimer>
 		<warmUpTimer>1.25</warmUpTimer>
 		<magazineCapacity>10</magazineCapacity>
-		<chargePerAmmoCount>10</chargePerAmmoCount>
+		<chargePerAmmoCount>2</chargePerAmmoCount>
 		<genericAmmo>true</genericAmmo>
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>3.6</rotationSpeed>
@@ -150,8 +150,8 @@
 		<label>spew</label>
 		<thingClass>VFECore.FlamethrowProjectile</thingClass>
 		<graphicData>
-			<texPath>Projectiles/FlameSpew</texPath>
-			<texPathFadeOut>Projectiles/FlameExit</texPathFadeOut>
+			<texPath>Projectiles/AMFlamer_Flame</texPath>
+			<texPathFadeOut>Projectiles/AMFlamer_End</texPathFadeOut>
 			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<projectile>
