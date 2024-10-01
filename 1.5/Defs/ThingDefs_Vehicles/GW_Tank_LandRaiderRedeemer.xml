@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_RedeemerLandRaiderAC_MainTurret</defName>
+		<label>Land Raider main autocannon</label>
+		<description>WIP</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>Shot_TurretSniper</shotSound>
+		<projectile>GW_SM_Term_VCannonBullet</projectile>
+		<reloadTimer>15.0</reloadTimer>
+		<warmUpTimer>4.0</warmUpTimer>
+		<magazineCapacity>360</magazineCapacity>
+		<chargePerAmmoCount>3</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
+		<hitFlags>IntendedTarget</hitFlags>
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>1.5</rotationSpeed>
+		<projectileOffset>4.0</projectileOffset>
+		<projectileShifting>
+			<li>-0.1</li>
+		</projectileShifting>
+		<minRange>5</minRange>
+		<maxRange>50.9</maxRange>
+		<recoil>
+			<distanceTotal>0.25</distanceTotal>
+			<distancePerTick>0.1</distancePerTick>
+			<speedMultiplierPostRecoil>0.25</speedMultiplierPostRecoil>
+		</recoil>
+		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
+		<fireModes>
+			<li>
+				<shotsPerBurst>36</shotsPerBurst>
+				<ticksBetweenShots>2</ticksBetweenShots>
+				<ticksBetweenBursts>120</ticksBetweenBursts>
+				<spreadRadius>4</spreadRadius>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+		<graphicData>
+			<texPath>Things/Vehicles/LandRaider/DualMinigun_Turret</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4.5, 4.5)</drawSize>
+		</graphicData>
+		<ammunition>
+			<thingDefs>
+				<li>GW_HeavyBolterNonCE</li>
+			</thingDefs>
+		</ammunition>
+		<motes>
+			<li>
+				<cycles>1</cycles>
+				<moteDef>Mote_GW_Plume</moteDef>
+				<animationType>Reset</animationType>
+			</li>
+		</motes>
+	</Vehicles.VehicleTurretDef>
+
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_LandRaider_Sidebolter</defName>
+		<label>Hurricane Bolter</label>
+		<description>bolt.</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
+		<projectile>HP_Bullet_HeavyBolter</projectile>
+		<reloadTimer>15.8</reloadTimer>
+		<warmUpTimer>3.0</warmUpTimer>
+		<magazineCapacity>600</magazineCapacity>
+		<chargePerAmmoCount>2</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
+		<hitFlags>IntendedTarget</hitFlags>
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2.0</rotationSpeed>
+		<projectileOffset>1.0</projectileOffset>
+		<projectileShifting>
+			<li>-0.2</li>
+			<li>0.2</li>
+		</projectileShifting>
+		<maxRange>28.9</maxRange>
+		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
+		<fireModes>
+			<li>
+				<shotsPerBurst>30</shotsPerBurst>
+				<ticksBetweenShots>4</ticksBetweenShots>
+				<ticksBetweenBursts>60</ticksBetweenBursts>
+				<spreadRadius>3</spreadRadius>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+		<graphicData>
+			<texPath>Things/Vehicles/LandRaider/SideTurret_Bolter</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4.5, 4.5)</drawSize>
+			<layer>1</layer>
+		</graphicData>
+		<ammunition>
+			<thingDefs>
+				<li>GW_HeavyBolterNonCE</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+	
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_Flamestorm_SideTurret</defName>
+		<label>Flamestorm cannon</label>
+		<description>WIP</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>Shot_MiniFlameblaster</shotSound>
+		<projectile>GW_Bullet_Flamer</projectile>
+		<reloadTimer>8.4</reloadTimer>
+		<warmUpTimer>1.25</warmUpTimer>
+		<magazineCapacity>10</magazineCapacity>
+		<chargePerAmmoCount>2</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>3.6</rotationSpeed>
+		<projectileOffset>3</projectileOffset>
+		<hitFlags>IntendedTarget</hitFlags>
+		<maxRange>20.9</maxRange>
+		<minRange>1.9</minRange>
+		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenBursts>1</ticksBetweenBursts>
+				<spreadRadius>3.9</spreadRadius>
+				<label>Fire Spew</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+		</fireModes>
+		<graphicData>
+			<texPath>Things/Vehicles/LandRaider/SideTurret_Flammer</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4.5, 4.5)</drawSize>
+		</graphicData>
+		<ammunition>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GW_Bullet_Flamer</defName>
+		<label>spew</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Projectiles/AMFlamer_Flame</texPath>
+			<texPathFadeOut>Projectiles/AMFlamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>2</damageAmountBase>
+		</projectile>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+
+</Defs>
