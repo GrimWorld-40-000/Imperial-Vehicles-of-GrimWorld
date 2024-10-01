@@ -12,7 +12,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>150</damageAmountBase>
+			<damageAmountBase>80</damageAmountBase>
 			<speed>90</speed>
 			<explosionRadius>5.9</explosionRadius>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>

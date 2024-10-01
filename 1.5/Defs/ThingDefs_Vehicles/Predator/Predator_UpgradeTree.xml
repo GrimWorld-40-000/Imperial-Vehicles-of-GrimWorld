@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<Vehicles.UpgradeTreeDef>
+		<defName>GW_Predator_UpgradeTree</defName>
+		<nodes>
+			<li>
+				<key>ExecutionerPUpgrade</key>
+				<label>Executioner</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Predator/Predator_Cannontop_Plasma</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 <li>AnnihilatorUpgrade</li>
+				 <li>BaalUpgrade</li>
+				 <li>DestructorUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_PredatorExecutioner_MainTurret</turretDef>
+								<renderProperties>
+							<north>(0, 0.1)</north>
+							<south>(0, 0.2)</south>
+							<east>(0, 0.5)</east>
+								</renderProperties>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Main Turret</gizmoLabel>
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.4)</aimPieOffset>
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>1</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <HP_Adamantium>5</HP_Adamantium>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+		    <li>
+				<key>BaalUpgrade</key>
+				<label>Baal</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Predator/Predator_Cannontop_Gatling</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 10)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 <li>AnnihilatorUpgrade</li>
+				 <li>ExecutionerPUpgrade</li>
+				 <li>DestructorUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_BaalPredator_MainTurret</turretDef>
+								<renderProperties>
+							<north>(0, 0.1)</north>
+							<south>(0, 0.2)</south>
+							<east>(0, 0.5)</east>
+								</renderProperties>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Main Turret</gizmoLabel>
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.4)</aimPieOffset>
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>1</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <HP_Adamantium>5</HP_Adamantium>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>DestructorUpgrade</key>
+				<label>Destructor</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Predator/Predator_CannonTop</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 15)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 <li>AnnihilatorUpgrade</li>
+				 <li>ExecutionerPUpgrade</li>
+				 <li>BaalUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_Predator_MainTurret</turretDef>
+								<renderProperties>
+							<north>(0, 0.1)</north>
+							<south>(0, 0.2)</south>
+							<east>(0, 0.5)</east>
+								</renderProperties>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Main Turret</gizmoLabel>
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.4)</aimPieOffset>
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>1</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <HP_Adamantium>5</HP_Adamantium>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>AnihilatorUpgrade</key>
+				<label>Anihilator</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Predator/Predator_CannonTop</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 20)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 <li>DestructorUpgrade</li>
+				 <li>ExecutionerPUpgrade</li>
+				 <li>BaalUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_PredatorAnihilator_MainTurret</turretDef>
+								<renderProperties>
+							<north>(0, 0.1)</north>
+							<south>(0, 0.2)</south>
+							<east>(0, 0.5)</east>
+								</renderProperties>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Main Turret</gizmoLabel>
+								<angleRestricted/>
+								<aimPieOffset>(0, 1.4)</aimPieOffset>
+								<key>mainTurret</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>1</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <HP_Adamantium>5</HP_Adamantium>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+	
+</Defs>

@@ -37,7 +37,6 @@
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.09</AccelerationRate>
 		</vehicleStats>
-		
 		<soundSustainersOnEvent>
 			<li>
 				<start>IgnitionOn</start>
@@ -45,7 +44,6 @@
 				<value>GW_VoG_HeavySound</value>
 			</li>
 		</soundSustainersOnEvent>
-		
 		<race>
 			<baseBodySize>4.0</baseBodySize>
 		</race>
@@ -345,21 +343,11 @@
 				<fuelConsumptionWorldMultiplier>0.75</fuelConsumptionWorldMultiplier>
 				<fuelCapacity>115</fuelCapacity>
 			</li>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_Predator_UpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
-					<li>
-						<turretDef>GW_Predator_MainTurret</turretDef>
-						<renderProperties>
-							<north>(0, 0.1)</north>
-							<south>(0, 0.2)</south>
-							<east>(0, 0.5)</east>
-						</renderProperties>
-						<gizmoLabel>Main Turret</gizmoLabel>
-						<angleRestricted />
-						<aimPieOffset>(0, 2.0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>mainTurret</key>
-					</li>
 					<li>
 						<turretDef>GW_Predator_HeavyBolter</turretDef>
 						<renderProperties>

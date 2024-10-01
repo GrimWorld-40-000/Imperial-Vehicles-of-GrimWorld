@@ -37,7 +37,6 @@
 			<RepairRate>0.3</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
-		
 		<soundSustainersOnEvent>
 			<li>
 				<start>IgnitionOn</start>
@@ -45,7 +44,6 @@
 				<value>GW_VoG_HeavySound</value>
 			</li>
 		</soundSustainersOnEvent>
-		
 		<race>
 			<baseBodySize>4.0</baseBodySize>
 		</race>
@@ -367,50 +365,11 @@
 				<fuelConsumptionWorldMultiplier>0.85</fuelConsumptionWorldMultiplier>
 				<fuelCapacity>130</fuelCapacity>
 			</li>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_Landraider_UpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
-					<li>
-						<turretDef>GW_LandRaider_twinbolter</turretDef>
-						<renderProperties>
-							<north>(-0.5, 2)</north>
-							<south>(0.7, -2)</south>
-							<east>(2.4, 1)</east>
-							<west>(-2, -0.1)</west>
-						</renderProperties>
-						<gizmoLabel>Frontal Turret</gizmoLabel>
-						<angleRestricted>(-65, 65)</angleRestricted>
-						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>frontMountedTurret</key>
-					</li>
-					<li>
-						<turretDef>GW_LandRaider_Lasgun</turretDef>
-                        <renderProperties>
-                            <north>(-4.5, -1.2)</north>
-                            <south>(4.5, 1)</south>
-                            <east>(-1, 4)</east>
-                            <west>(1, -3.2)</west>
-                        </renderProperties>
-                        <gizmoLabel>Left Turret</gizmoLabel>
-                        <angleRestricted>(220, 10)</angleRestricted>
-                        <aimPieOffset>(0, 0)</aimPieOffset>
-                        <drawLayer>1</drawLayer>
-                        <key>leftMountedTurret</key>
-                    </li>
-					<li>
-						<turretDef>GW_LandRaider_Lasgun</turretDef>
-						<renderProperties>
-							<north>(4.5, -1.2)</north>
-							<south>(-4.5, 1)</south>
-							<east>(-1, -3.2)</east>
-							<west>(1, 4)</west>
-						</renderProperties>
-						<gizmoLabel>Right Turret</gizmoLabel>
-						<angleRestricted>(-10, 145)</angleRestricted>
-						<aimPieOffset>(0, 0)</aimPieOffset>
-						<drawLayer>1</drawLayer>
-						<key>rightMountedTurret</key>
-					</li>
 				</turrets>
 			</li>
 		</comps>
