@@ -11,7 +11,7 @@
 				<description>WIP</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Plasma</icon>
 				<work>7500</work>
-				<gridCoordinate>(5, 5)</gridCoordinate>
+				<gridCoordinate>(3, 3)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
 				<disableIfUpgradeNodesEnabled>
 				 <li>AnnihilatorUpgrade</li>
@@ -51,7 +51,7 @@
 				<description>WIP</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Gatling</icon>
 				<work>7500</work>
-				<gridCoordinate>(5, 10)</gridCoordinate>
+				<gridCoordinate>(3, 8)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
 				<disableIfUpgradeNodesEnabled>
 				 <li>AnnihilatorUpgrade</li>
@@ -91,7 +91,7 @@
 				<description>WIP</description>
 				<icon>Things/Vehicles/Predator/Predator_Cannontop_Cannon</icon>
 				<work>7500</work>
-				<gridCoordinate>(5, 15)</gridCoordinate>
+				<gridCoordinate>(3, 13)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
 				<disableIfUpgradeNodesEnabled>
 				 <li>AnnihilatorUpgrade</li>
@@ -131,7 +131,7 @@
 				<description>WIP</description>
 				<icon>Things/Vehicles/Predator/Predator_LasCannonTop</icon>
 				<work>7500</work>
-				<gridCoordinate>(5, 20)</gridCoordinate>
+				<gridCoordinate>(3, 18)</gridCoordinate>
 				<drawSize>(80, 80)</drawSize>
 				<disableIfUpgradeNodesEnabled>
 				 <li>DestructorUpgrade</li>
