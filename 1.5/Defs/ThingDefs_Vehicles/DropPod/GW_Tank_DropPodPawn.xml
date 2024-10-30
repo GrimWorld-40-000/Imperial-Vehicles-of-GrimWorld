@@ -255,7 +255,7 @@
 			<fuelCapacity>160</fuelCapacity>
 		</li>
 			<li Class="Vehicles.CompProperties_VehicleLauncher">
-				<controlInFlight>false</controlInFlight>
+				<controlInFlight>true</controlInFlight>
 				<launchProtocol Class="Vehicles.DefaultTakeoff">
 					<maxFlightNodes>1</maxFlightNodes>
 					<launchProperties>
