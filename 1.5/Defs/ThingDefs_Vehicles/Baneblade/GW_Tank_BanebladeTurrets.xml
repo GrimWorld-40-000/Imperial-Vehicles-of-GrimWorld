@@ -334,8 +334,8 @@
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_Baneblade_HeavyBolter</defName>
-		<label>A twin-linked, sponson-mounted heavy bolter used on the Baneblade. Fires 0.998 cal bolts.</label>
-		<description>bolt.</description>
+		<label>Baneblade heavy bolter</label>
+		<description>A twin-linked, sponson-mounted heavy bolter used on the Baneblade. Fires 0.998 cal bolts.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>HP_Bullet_HeavyBolter</projectile>
