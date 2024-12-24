@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>GW_VehicleBench</defName>
 		<label>Imperial vehicle bench</label>
-		<description>Allow to craft all nessesary parts/sub-parts to build Imperial tanks.</description>
+		<description>A workbench for crafting the components of Imperial vehicles. \n\nWhole worlds have been pledged to the manufacture of such components, and whole worlds have been mined to dust for the materials to make them.</description>
 		<graphicData>
 			<texPath>Things/Building/VehiclesBench/VehicleBench</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
