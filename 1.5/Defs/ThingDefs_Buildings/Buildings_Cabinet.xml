@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>GW_VehicleToolCabinet</defName>
 		<label>Imperial vehicle tool cabinet</label>
-		<description>Simple utility tool cabinet to speed up work around.</description>
+		<description>A cabinet that contains manufacturing tools. When placed near a workbench, it passively increases crafting speed. \n\nIn the Imperium of Man, such tools could be crude, improvised implements or wonderous, high-tech devices. They may even share the same cabinet.</description>
 		<graphicData>
 			<texPath>Things/Building/ToolCabinet/WH_VehicleToolCabinet</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
