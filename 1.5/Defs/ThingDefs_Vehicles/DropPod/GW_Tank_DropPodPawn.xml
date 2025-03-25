@@ -12,7 +12,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>DropPodSoarLoop</clipPath>
+            <clipPath>Vehicles/DropPodSoarLoop</clipPath>
           </li>
         </grains>
         <pitchRange>0.99~1.01</pitchRange>
@@ -32,7 +32,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>DropPodSoarLand</clipPath>
+            <clipPath>Vehicles/DropPodSoarLand</clipPath>
           </li>
         </grains>
         <pitchRange>0.99~1.01</pitchRange>

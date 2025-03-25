@@ -11,7 +11,7 @@
 			<muteWhenPaused>True</muteWhenPaused>      
 			<grains>
 				<li Class="AudioGrain_Clip">
-					<clipPath>HeavyLoop</clipPath>
+					<clipPath>Vehicles/HeavyLoop</clipPath>
 				</li>
 			</grains>      
 			<pitchRange>0.99~1.01</pitchRange>
