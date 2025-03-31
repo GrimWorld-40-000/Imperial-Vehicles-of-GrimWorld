@@ -52,7 +52,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>OverlordHeavyBolter</clipPath>
+            <clipPath>Vehicles/OverlordHeavyBolter</clipPath>
           </li>
         </grains>
       </li>
@@ -67,7 +67,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>overlordLasCannon</clipPath>
+            <clipPath>Vehicles/overlordLasCannon</clipPath>
           </li>
         </grains>
       </li>
