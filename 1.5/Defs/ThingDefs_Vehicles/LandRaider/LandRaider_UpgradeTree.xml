@@ -8,7 +8,7 @@
 			<li>
 				<key>RedeemerUpgrade</key>
 				<label>Redeemer</label>
-				<description>WIP</description>
+				<description>Converts this vehicle into a Land Raider Redeemer, armed with a twin-linked assault cannon and two twin-linked, sponson-mounted Flamestorm Cannons. More potent than even a typical vehicle-mounted Heavy Flamer, these vehicles are used by the Fire Lords Space Marines to provide fire support for infantry assaults, burning out even the most entrenched enemy forces in a tide of promethium. \n\nThe Chapter Master of the Fire Lords, Jaric Phoros, was involved in the civil war for the planet of Grissen, where the natives were so well-fortified that no planetary bombardment could hope to inflict any real damage. However, when he ordered the creation of a weapon that would win the war, the Land Raider Redeemer had the native forces suing for peace within a month.</description>
 				<icon>Things/Vehicles/LandRaider/DualMinigun_Turret</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 5)</gridCoordinate>
@@ -93,7 +93,7 @@
 		    <li>
 				<key>CrusaderUpgrade</key>
 				<label>Crusader</label>
-				<description>WIP</description>
+				<description>Converts this vehicle into a Land Raider Crusader, armed with Hurricane Bolters, a twin-linked assault cannon, and a twin-linked multi-melta on the pintle mount. As a dedicated assault vehicle, the Crusader suffers at range, but its incredible close-combat firepower and ample ability to support troops and handle crowds cannot be denied. \n\nThe Crusader is originates from the Black Templars chapter. An Artificer - a type of Chapter Serf - by the name of Simagus created the design, and where word of its success spread to other Astartes chapters, the design followed.</description>
 				<icon>Things/Vehicles/LandRaider/SideTurret_Flammer</icon>
 				<work>7500</work>
 				<gridCoordinate>(5, 10)</gridCoordinate>
